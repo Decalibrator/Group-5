@@ -1,0 +1,3234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<profile version="1">
+    <node_assets>
+        <rigid_body version="1.1" id="8737e339180d784:37f3b3d38bad11ef">
+            <markers>
+                <marker active_id="0">
+                    <position>0.0689585,0.0758774,-0.0322297</position>
+                    <size>0.02</size>
+                    <label_id>1</label_id>
+                </marker>
+                <marker active_id="0">
+                    <position>-0.0416717,0.029453,0.0113634</position>
+                    <size>0.02</size>
+                    <label_id>2</label_id>
+                </marker>
+                <marker active_id="0">
+                    <position>-0.044855,-0.0575686,0.00989014</position>
+                    <size>0.02</size>
+                    <label_id>3</label_id>
+                </marker>
+                <marker active_id="0">
+                    <position>0.0175682,-0.0477618,0.0109762</position>
+                    <size>0.02</size>
+                    <label_id>4</label_id>
+                </marker>
+            </markers>
+            <properties>
+                <property name="NodeName" value="Camera1" default_value="Camera1"/>
+                <property name="DegreesOfFreedom" value="63"/>
+                <property name="Color" value="4286644159" default_value="4286644159"/>
+                <property name="ShowBones" value="true" default_value="true"/>
+                <property name="ShowAxis" value="true" default_value="true"/>
+                <property name="SyntheticLabelGraphScale" value="1.000000" default_value="1.000000"/>
+            </properties>
+            <marker_names reorder_markers="true">
+                <!--To rename markers, modify the value in the "name" tag.-->
+                <marker name="Marker1" old_name="Marker1"/>
+                <marker name="Marker2" old_name="Marker2"/>
+                <marker name="Marker3" old_name="Marker3"/>
+                <marker name="Marker4" old_name="Marker4"/>
+                <!--Renaming markers added to a skeletons: If a fourth marker is added manually to the head of a skeleton, then add a tag such as <Marker name="Head_4" old_name="Head_4" /> where the values in name and old_name are the bone segment (case matters) followed by the marker number.-->
+                <!--Skeleton Bone Segment Names: Head, Neck, Chest, Ab, Hip, LShoulder, LUArm, LFArm, LHand, RShoulder, RUArm, RFArm, RHand, LThigh, LShin, LFoot, LToe, RThigh, RShin, RFoot, RToe.-->
+                <!--If "ReorderMarkers = True" the order here persists into the labeling pane.-->
+            </marker_names>
+            <marker_colors>
+                <!--The "name" tag in this section corresponds with the "name" values in <marker_names>.-->
+                <marker name="Marker1" color="1 1 1" movable="false"/>
+                <marker name="Marker2" color="1 1 1" movable="false"/>
+                <marker name="Marker3" color="1 1 1" movable="false"/>
+                <marker name="Marker4" color="1 1 1" movable="false"/>
+                <!--If nothing appears in this section it is because you need to update or generate colors. You can do this in the asset's context menu.-->
+                <!--The movable="false" tag currently is not functioning.-->
+            </marker_colors>
+            <marker_sticks>
+                <!--The "origin" and "end" tags in this section correspond with the "name" values in <marker_names>-->
+            </marker_sticks>
+        </rigid_body>
+        <rigid_body version="1.1" id="8737e339180d784:5afff9a68bad11ef">
+            <markers>
+                <marker active_id="0">
+                    <position>-0.0298858,-0.00662275,-0.101937</position>
+                    <size>0.02</size>
+                    <label_id>1</label_id>
+                </marker>
+                <marker active_id="0">
+                    <position>-0.0066068,-0.00490085,0.146088</position>
+                    <size>0.02</size>
+                    <label_id>2</label_id>
+                </marker>
+                <marker active_id="0">
+                    <position>0.0350357,-0.00638725,-0.0583728</position>
+                    <size>0.02</size>
+                    <label_id>3</label_id>
+                </marker>
+                <marker active_id="0">
+                    <position>0.00145691,0.0179109,0.0142217</position>
+                    <size>0.02</size>
+                    <label_id>4</label_id>
+                </marker>
+            </markers>
+            <properties>
+                <property name="NodeName" value="Camera2" default_value="Camera2"/>
+                <property name="DegreesOfFreedom" value="63"/>
+                <property name="Color" value="4294901982" default_value="4294901982"/>
+                <property name="ShowBones" value="true" default_value="true"/>
+                <property name="ShowAxis" value="true" default_value="true"/>
+                <property name="UserData" value="2" default_value="2"/>
+                <property name="SyntheticLabelGraphScale" value="1.000000" default_value="1.000000"/>
+            </properties>
+            <marker_names reorder_markers="true">
+                <!--To rename markers, modify the value in the "name" tag.-->
+                <marker name="Marker1" old_name="Marker1"/>
+                <marker name="Marker2" old_name="Marker2"/>
+                <marker name="Marker3" old_name="Marker3"/>
+                <marker name="Marker4" old_name="Marker4"/>
+                <!--Renaming markers added to a skeletons: If a fourth marker is added manually to the head of a skeleton, then add a tag such as <Marker name="Head_4" old_name="Head_4" /> where the values in name and old_name are the bone segment (case matters) followed by the marker number.-->
+                <!--Skeleton Bone Segment Names: Head, Neck, Chest, Ab, Hip, LShoulder, LUArm, LFArm, LHand, RShoulder, RUArm, RFArm, RHand, LThigh, LShin, LFoot, LToe, RThigh, RShin, RFoot, RToe.-->
+                <!--If "ReorderMarkers = True" the order here persists into the labeling pane.-->
+            </marker_names>
+            <marker_colors>
+                <!--The "name" tag in this section corresponds with the "name" values in <marker_names>.-->
+                <marker name="Marker1" color="1 1 1" movable="false"/>
+                <marker name="Marker2" color="1 1 1" movable="false"/>
+                <marker name="Marker3" color="1 1 1" movable="false"/>
+                <marker name="Marker4" color="1 1 1" movable="false"/>
+                <!--If nothing appears in this section it is because you need to update or generate colors. You can do this in the asset's context menu.-->
+                <!--The movable="false" tag currently is not functioning.-->
+            </marker_colors>
+            <marker_sticks>
+                <!--The "origin" and "end" tags in this section correspond with the "name" values in <marker_names>-->
+            </marker_sticks>
+        </rigid_body>
+        <rigid_body version="1.1" id="8737e339180d784:ca86fa798bc911ef">
+            <markers>
+                <marker active_id="0">
+                    <position>-0.0320644,0.0195576,-0.0427717</position>
+                    <size>0.02</size>
+                    <label_id>1</label_id>
+                </marker>
+                <marker active_id="0">
+                    <position>0.106032,-0.0113283,-0.0296597</position>
+                    <size>0.02</size>
+                    <label_id>2</label_id>
+                </marker>
+                <marker active_id="0">
+                    <position>-0.0739676,-0.00822932,0.0724313</position>
+                    <size>0.02</size>
+                    <label_id>3</label_id>
+                </marker>
+            </markers>
+            <properties>
+                <property name="NodeName" value="Gun" default_value="Gun"/>
+                <property name="DegreesOfFreedom" value="63"/>
+                <property name="Color" value="4294901982" default_value="4294901982"/>
+                <property name="ShowBones" value="true" default_value="true"/>
+                <property name="ShowAxis" value="true" default_value="true"/>
+                <property name="UserData" value="3" default_value="3"/>
+                <property name="SyntheticLabelGraphScale" value="1.000000" default_value="1.000000"/>
+            </properties>
+            <marker_names reorder_markers="true">
+                <!--To rename markers, modify the value in the "name" tag.-->
+                <marker name="Marker1" old_name="Marker1"/>
+                <marker name="Marker2" old_name="Marker2"/>
+                <marker name="Marker3" old_name="Marker3"/>
+                <!--Renaming markers added to a skeletons: If a fourth marker is added manually to the head of a skeleton, then add a tag such as <Marker name="Head_4" old_name="Head_4" /> where the values in name and old_name are the bone segment (case matters) followed by the marker number.-->
+                <!--Skeleton Bone Segment Names: Head, Neck, Chest, Ab, Hip, LShoulder, LUArm, LFArm, LHand, RShoulder, RUArm, RFArm, RHand, LThigh, LShin, LFoot, LToe, RThigh, RShin, RFoot, RToe.-->
+                <!--If "ReorderMarkers = True" the order here persists into the labeling pane.-->
+            </marker_names>
+            <marker_colors>
+                <!--The "name" tag in this section corresponds with the "name" values in <marker_names>.-->
+                <marker name="Marker1" color="1 1 1" movable="false"/>
+                <marker name="Marker2" color="1 1 1" movable="false"/>
+                <marker name="Marker3" color="1 1 1" movable="false"/>
+                <!--If nothing appears in this section it is because you need to update or generate colors. You can do this in the asset's context menu.-->
+                <!--The movable="false" tag currently is not functioning.-->
+            </marker_colors>
+            <marker_sticks>
+                <!--The "origin" and "end" tags in this section correspond with the "name" values in <marker_names>-->
+            </marker_sticks>
+        </rigid_body>
+        <skeleton version="1000" id="8737e339180d784:e6413f8a8bb211ef">
+            <properties>
+                <property name="NodeName" value="Riley1_16th" default_value="Riley1_16th"/>
+                <property name="JointType" value="Root"/>
+                <property name="DegreesOfFreedom" value="63"/>
+                <property name="TranslationOffset" value="-0,0.945227,0"/>
+                <property name="AssetHeight" value="1.686571"/>
+                <property name="DofsVersion" value="1.0"/>
+                <property name="SkeletonMarkersetType" value="-41"/>
+                <property name="SkeletonModel" value="Segment" default_value="Segment"/>
+                <property name="Color" value="4294901910" default_value="4294901910"/>
+            </properties>
+            <joints>
+                <joint id="8737e339180d784:e6413f8d8bb211ef" parent_name="Riley1_16th">
+                    <properties>
+                        <property name="NodeName" value="Ab" default_value="Ab"/>
+                        <property name="JointType" value="SpineRoot"/>
+                        <property name="DegreesOfFreedom" value="26"/>
+                        <property name="TranslationOffset" value="-0,0.0768327,0"/>
+                    </properties>
+                </joint>
+                <joint id="8737e339180d784:e6413f8e8bb211ef" parent_name="Ab">
+                    <properties>
+                        <property name="NodeName" value="Chest" default_value="Chest"/>
+                        <property name="JointType" value="SpineEnd"/>
+                        <property name="DegreesOfFreedom" value="58"/>
+                        <property name="TranslationOffset" value="-0,0.202486,0"/>
+                    </properties>
+                </joint>
+                <joint id="8737e339180d784:e6413f8f8bb211ef" parent_name="Chest">
+                    <properties>
+                        <property name="NodeName" value="Neck" default_value="Neck"/>
+                        <property name="JointType" value="Neck"/>
+                        <property name="DegreesOfFreedom" value="58"/>
+                        <property name="TranslationOffset" value="-0,0.221226,0"/>
+                    </properties>
+                </joint>
+                <joint id="8737e339180d784:e6413f908bb211ef" parent_name="Neck">
+                    <properties>
+                        <property name="NodeName" value="Head" default_value="Head"/>
+                        <property name="JointType" value="Head"/>
+                        <property name="DegreesOfFreedom" value="58"/>
+                        <property name="TranslationOffset" value="-0,0.145232,0.0187397"/>
+                    </properties>
+                </joint>
+                <joint id="8737e339180d784:e6413f918bb211ef" parent_name="Chest">
+                    <properties>
+                        <property name="NodeName" value="LShoulder" default_value="LShoulder"/>
+                        <property name="JointType" value="LShoulder"/>
+                        <property name="DegreesOfFreedom" value="56"/>
+                        <property name="TranslationOffset" value="0.0374242,0.179632,-0.00258136"/>
+                    </properties>
+                </joint>
+                <joint id="8737e339180d784:e6413f928bb211ef" parent_name="LShoulder">
+                    <properties>
+                        <property name="NodeName" value="LUArm" default_value="LUArm"/>
+                        <property name="JointType" value="LUpperArm"/>
+                        <property name="DegreesOfFreedom" value="56"/>
+                        <property name="TranslationOffset" value="0.1051,0,0"/>
+                    </properties>
+                </joint>
+                <joint id="8737e339180d784:e6413f938bb211ef" parent_name="LUArm">
+                    <properties>
+                        <property name="NodeName" value="LFArm" default_value="LFArm"/>
+                        <property name="JointType" value="LForearm"/>
+                        <property name="DegreesOfFreedom" value="24"/>
+                        <property name="TranslationOffset" value="0.265511,0,0"/>
+                    </properties>
+                </joint>
+                <joint id="8737e339180d784:e6413f948bb211ef" parent_name="LFArm">
+                    <properties>
+                        <property name="NodeName" value="LHand" default_value="LHand"/>
+                        <property name="JointType" value="LHand"/>
+                        <property name="DegreesOfFreedom" value="56"/>
+                        <property name="TranslationOffset" value="0.256027,0,0"/>
+                    </properties>
+                </joint>
+                <joint id="8737e339180d784:e6413fa18bb211ef" parent_name="LHand">
+                    <properties>
+                        <property name="NodeName" value="LThumb1" default_value="LThumb1"/>
+                        <property name="JointType" value="LThumb1"/>
+                        <property name="DegreesOfFreedom" value="48"/>
+                        <property name="RotationOffset" value="0.366723,-0.264033,0.109366,0.885347"/>
+                        <property name="TranslationOffset" value="0.019583,-0.0222534,0.0311547"/>
+                    </properties>
+                </joint>
+                <joint id="8737e339180d784:e6413fa28bb211ef" parent_name="LThumb1">
+                    <properties>
+                        <property name="NodeName" value="LThumb2" default_value="LThumb2"/>
+                        <property name="JointType" value="LThumb2"/>
+                        <property name="DegreesOfFreedom" value="32"/>
+                        <property name="RotationOffset" value="0,0.202082,-0.202082,0.958293"/>
+                        <property name="TranslationOffset" value="0.0295771,0,0"/>
+                    </properties>
+                </joint>
+                <joint id="8737e339180d784:e6413fa38bb211ef" parent_name="LThumb2">
+                    <properties>
+                        <property name="NodeName" value="LThumb3" default_value="LThumb3"/>
+                        <property name="JointType" value="LThumb3"/>
+                        <property name="DegreesOfFreedom" value="32"/>
+                        <property name="TranslationOffset" value="0.0252798,0,0"/>
+                    </properties>
+                </joint>
+                <joint id="8737e339180d784:e6413fa58bb211ef" parent_name="LHand">
+                    <properties>
+                        <property name="NodeName" value="LIndex1" default_value="LIndex1"/>
+                        <property name="JointType" value="LIndex1"/>
+                        <property name="DegreesOfFreedom" value="48"/>
+                        <property name="RotationOrder" value="XYZ"/>
+                        <property name="RotationOffset" value="0.156434,0,0,0.987688"/>
+                        <property name="TranslationOffset" value="0.0801121,0,0.0311547"/>
+                    </properties>
+                </joint>
+                <joint id="8737e339180d784:e6413fa68bb211ef" parent_name="LIndex1">
+                    <properties>
+                        <property name="NodeName" value="LIndex2" default_value="LIndex2"/>
+                        <property name="JointType" value="LIndex2"/>
+                        <property name="DegreesOfFreedom" value="32"/>
+                        <property name="RotationOrder" value="XYZ"/>
+                        <property name="TranslationOffset" value="0.0445067,0,0"/>
+                    </properties>
+                </joint>
+                <joint id="8737e339180d784:e6413fa78bb211ef" parent_name="LIndex2">
+                    <properties>
+                        <property name="NodeName" value="LIndex3" default_value="LIndex3"/>
+                        <property name="JointType" value="LIndex3"/>
+                        <property name="DegreesOfFreedom" value="32"/>
+                        <property name="RotationOrder" value="XYZ"/>
+                        <property name="TranslationOffset" value="0.0222534,0,0"/>
+                    </properties>
+                </joint>
+                <joint id="8737e339180d784:e6413fa98bb211ef" parent_name="LHand">
+                    <properties>
+                        <property name="NodeName" value="LMiddle1" default_value="LMiddle1"/>
+                        <property name="JointType" value="LMiddle1"/>
+                        <property name="DegreesOfFreedom" value="48"/>
+                        <property name="RotationOrder" value="XYZ"/>
+                        <property name="TranslationOffset" value="0.0801121,0,0.0103256"/>
+                    </properties>
+                </joint>
+                <joint id="8737e339180d784:e6413faa8bb211ef" parent_name="LMiddle1">
+                    <properties>
+                        <property name="NodeName" value="LMiddle2" default_value="LMiddle2"/>
+                        <property name="JointType" value="LMiddle2"/>
+                        <property name="DegreesOfFreedom" value="32"/>
+                        <property name="RotationOrder" value="XYZ"/>
+                        <property name="TranslationOffset" value="0.0489574,0,0"/>
+                    </properties>
+                </joint>
+                <joint id="8737e339180d784:e6413fab8bb211ef" parent_name="LMiddle2">
+                    <properties>
+                        <property name="NodeName" value="LMiddle3" default_value="LMiddle3"/>
+                        <property name="JointType" value="LMiddle3"/>
+                        <property name="DegreesOfFreedom" value="32"/>
+                        <property name="RotationOrder" value="XYZ"/>
+                        <property name="TranslationOffset" value="0.026704,0,0"/>
+                    </properties>
+                </joint>
+                <joint id="8737e339180d784:e6413fad8bb211ef" parent_name="LHand">
+                    <properties>
+                        <property name="NodeName" value="LRing1" default_value="LRing1"/>
+                        <property name="JointType" value="LRing1"/>
+                        <property name="DegreesOfFreedom" value="48"/>
+                        <property name="RotationOrder" value="XYZ"/>
+                        <property name="TranslationOffset" value="0.0756614,0,-0.0103256"/>
+                    </properties>
+                </joint>
+                <joint id="8737e339180d784:e6413fae8bb211ef" parent_name="LRing1">
+                    <properties>
+                        <property name="NodeName" value="LRing2" default_value="LRing2"/>
+                        <property name="JointType" value="LRing2"/>
+                        <property name="DegreesOfFreedom" value="32"/>
+                        <property name="RotationOrder" value="XYZ"/>
+                        <property name="TranslationOffset" value="0.0445067,0,0"/>
+                    </properties>
+                </joint>
+                <joint id="8737e339180d784:e6413faf8bb211ef" parent_name="LRing2">
+                    <properties>
+                        <property name="NodeName" value="LRing3" default_value="LRing3"/>
+                        <property name="JointType" value="LRing3"/>
+                        <property name="DegreesOfFreedom" value="32"/>
+                        <property name="RotationOrder" value="XYZ"/>
+                        <property name="TranslationOffset" value="0.0222534,0,0"/>
+                    </properties>
+                </joint>
+                <joint id="8737e339180d784:e6413fb18bb211ef" parent_name="LHand">
+                    <properties>
+                        <property name="NodeName" value="LPinky1" default_value="LPinky1"/>
+                        <property name="JointType" value="LPinky1"/>
+                        <property name="DegreesOfFreedom" value="48"/>
+                        <property name="RotationOrder" value="XYZ"/>
+                        <property name="RotationOffset" value="-0.156434,0,0,0.987688"/>
+                        <property name="TranslationOffset" value="0.0712108,0,-0.0311547"/>
+                    </properties>
+                </joint>
+                <joint id="8737e339180d784:e6413fb28bb211ef" parent_name="LPinky1">
+                    <properties>
+                        <property name="NodeName" value="LPinky2" default_value="LPinky2"/>
+                        <property name="JointType" value="LPinky2"/>
+                        <property name="DegreesOfFreedom" value="32"/>
+                        <property name="RotationOrder" value="XYZ"/>
+                        <property name="TranslationOffset" value="0.0356054,0,0"/>
+                    </properties>
+                </joint>
+                <joint id="8737e339180d784:e6413fb38bb211ef" parent_name="LPinky2">
+                    <properties>
+                        <property name="NodeName" value="LPinky3" default_value="LPinky3"/>
+                        <property name="JointType" value="LPinky3"/>
+                        <property name="DegreesOfFreedom" value="32"/>
+                        <property name="RotationOrder" value="XYZ"/>
+                        <property name="TranslationOffset" value="0.0178027,0,0"/>
+                    </properties>
+                </joint>
+                <joint id="8737e339180d784:e6413f958bb211ef" parent_name="Chest">
+                    <properties>
+                        <property name="NodeName" value="RShoulder" default_value="RShoulder"/>
+                        <property name="JointType" value="RShoulder"/>
+                        <property name="DegreesOfFreedom" value="56"/>
+                        <property name="TranslationOffset" value="-0.0374242,0.179632,-0.00258136"/>
+                    </properties>
+                </joint>
+                <joint id="8737e339180d784:e6413f968bb211ef" parent_name="RShoulder">
+                    <properties>
+                        <property name="NodeName" value="RUArm" default_value="RUArm"/>
+                        <property name="JointType" value="RUpperArm"/>
+                        <property name="DegreesOfFreedom" value="56"/>
+                        <property name="TranslationOffset" value="-0.1051,0,0"/>
+                    </properties>
+                </joint>
+                <joint id="8737e339180d784:e6413f978bb211ef" parent_name="RUArm">
+                    <properties>
+                        <property name="NodeName" value="RFArm" default_value="RFArm"/>
+                        <property name="JointType" value="RForearm"/>
+                        <property name="DegreesOfFreedom" value="24"/>
+                        <property name="TranslationOffset" value="-0.265511,0,0"/>
+                    </properties>
+                </joint>
+                <joint id="8737e339180d784:e6413f988bb211ef" parent_name="RFArm">
+                    <properties>
+                        <property name="NodeName" value="RHand" default_value="RHand"/>
+                        <property name="JointType" value="RHand"/>
+                        <property name="DegreesOfFreedom" value="56"/>
+                        <property name="TranslationOffset" value="-0.256027,0,0"/>
+                    </properties>
+                </joint>
+                <joint id="8737e339180d784:e6413fb58bb211ef" parent_name="RHand">
+                    <properties>
+                        <property name="NodeName" value="RThumb1" default_value="RThumb1"/>
+                        <property name="JointType" value="RThumb1"/>
+                        <property name="DegreesOfFreedom" value="48"/>
+                        <property name="RotationOffset" value="0.366723,0.264033,-0.109366,0.885347"/>
+                        <property name="TranslationOffset" value="-0.019583,-0.0222534,0.0311547"/>
+                    </properties>
+                </joint>
+                <joint id="8737e339180d784:e6413fb68bb211ef" parent_name="RThumb1">
+                    <properties>
+                        <property name="NodeName" value="RThumb2" default_value="RThumb2"/>
+                        <property name="JointType" value="RThumb2"/>
+                        <property name="DegreesOfFreedom" value="32"/>
+                        <property name="RotationOffset" value="0,-0.202082,0.202082,0.958293"/>
+                        <property name="TranslationOffset" value="-0.0295771,0,0"/>
+                    </properties>
+                </joint>
+                <joint id="8737e339180d784:e6413fb78bb211ef" parent_name="RThumb2">
+                    <properties>
+                        <property name="NodeName" value="RThumb3" default_value="RThumb3"/>
+                        <property name="JointType" value="RThumb3"/>
+                        <property name="DegreesOfFreedom" value="32"/>
+                        <property name="TranslationOffset" value="-0.0252798,0,0"/>
+                    </properties>
+                </joint>
+                <joint id="8737e339180d784:e6413fb98bb211ef" parent_name="RHand">
+                    <properties>
+                        <property name="NodeName" value="RIndex1" default_value="RIndex1"/>
+                        <property name="JointType" value="RIndex1"/>
+                        <property name="DegreesOfFreedom" value="48"/>
+                        <property name="RotationOrder" value="XYZ"/>
+                        <property name="RotationOffset" value="0.156434,0,0,0.987688"/>
+                        <property name="TranslationOffset" value="-0.0801121,0,0.0311547"/>
+                    </properties>
+                </joint>
+                <joint id="8737e339180d784:e6413fba8bb211ef" parent_name="RIndex1">
+                    <properties>
+                        <property name="NodeName" value="RIndex2" default_value="RIndex2"/>
+                        <property name="JointType" value="RIndex2"/>
+                        <property name="DegreesOfFreedom" value="32"/>
+                        <property name="RotationOrder" value="XYZ"/>
+                        <property name="TranslationOffset" value="-0.0445067,0,0"/>
+                    </properties>
+                </joint>
+                <joint id="8737e339180d784:e6413fbb8bb211ef" parent_name="RIndex2">
+                    <properties>
+                        <property name="NodeName" value="RIndex3" default_value="RIndex3"/>
+                        <property name="JointType" value="RIndex3"/>
+                        <property name="DegreesOfFreedom" value="32"/>
+                        <property name="RotationOrder" value="XYZ"/>
+                        <property name="TranslationOffset" value="-0.0222534,0,0"/>
+                    </properties>
+                </joint>
+                <joint id="8737e339180d784:e6413fbd8bb211ef" parent_name="RHand">
+                    <properties>
+                        <property name="NodeName" value="RMiddle1" default_value="RMiddle1"/>
+                        <property name="JointType" value="RMiddle1"/>
+                        <property name="DegreesOfFreedom" value="48"/>
+                        <property name="RotationOrder" value="XYZ"/>
+                        <property name="TranslationOffset" value="-0.0801121,0,0.0103256"/>
+                    </properties>
+                </joint>
+                <joint id="8737e339180d784:e6413fbe8bb211ef" parent_name="RMiddle1">
+                    <properties>
+                        <property name="NodeName" value="RMiddle2" default_value="RMiddle2"/>
+                        <property name="JointType" value="RMiddle2"/>
+                        <property name="DegreesOfFreedom" value="32"/>
+                        <property name="RotationOrder" value="XYZ"/>
+                        <property name="TranslationOffset" value="-0.0489574,0,0"/>
+                    </properties>
+                </joint>
+                <joint id="8737e339180d784:e6413fbf8bb211ef" parent_name="RMiddle2">
+                    <properties>
+                        <property name="NodeName" value="RMiddle3" default_value="RMiddle3"/>
+                        <property name="JointType" value="RMiddle3"/>
+                        <property name="DegreesOfFreedom" value="32"/>
+                        <property name="RotationOrder" value="XYZ"/>
+                        <property name="TranslationOffset" value="-0.026704,0,0"/>
+                    </properties>
+                </joint>
+                <joint id="8737e339180d784:e6413fc18bb211ef" parent_name="RHand">
+                    <properties>
+                        <property name="NodeName" value="RRing1" default_value="RRing1"/>
+                        <property name="JointType" value="RRing1"/>
+                        <property name="DegreesOfFreedom" value="48"/>
+                        <property name="RotationOrder" value="XYZ"/>
+                        <property name="TranslationOffset" value="-0.0756614,0,-0.0103256"/>
+                    </properties>
+                </joint>
+                <joint id="8737e339180d784:e6413fc28bb211ef" parent_name="RRing1">
+                    <properties>
+                        <property name="NodeName" value="RRing2" default_value="RRing2"/>
+                        <property name="JointType" value="RRing2"/>
+                        <property name="DegreesOfFreedom" value="32"/>
+                        <property name="RotationOrder" value="XYZ"/>
+                        <property name="TranslationOffset" value="-0.0445067,0,0"/>
+                    </properties>
+                </joint>
+                <joint id="8737e339180d784:e6413fc38bb211ef" parent_name="RRing2">
+                    <properties>
+                        <property name="NodeName" value="RRing3" default_value="RRing3"/>
+                        <property name="JointType" value="RRing3"/>
+                        <property name="DegreesOfFreedom" value="32"/>
+                        <property name="RotationOrder" value="XYZ"/>
+                        <property name="TranslationOffset" value="-0.0222534,0,0"/>
+                    </properties>
+                </joint>
+                <joint id="8737e339180d784:e6413fc58bb211ef" parent_name="RHand">
+                    <properties>
+                        <property name="NodeName" value="RPinky1" default_value="RPinky1"/>
+                        <property name="JointType" value="RPinky1"/>
+                        <property name="DegreesOfFreedom" value="48"/>
+                        <property name="RotationOrder" value="XYZ"/>
+                        <property name="RotationOffset" value="-0.156434,0,0,0.987688"/>
+                        <property name="TranslationOffset" value="-0.0712108,0,-0.0311547"/>
+                    </properties>
+                </joint>
+                <joint id="8737e339180d784:e6413fc68bb211ef" parent_name="RPinky1">
+                    <properties>
+                        <property name="NodeName" value="RPinky2" default_value="RPinky2"/>
+                        <property name="JointType" value="RPinky2"/>
+                        <property name="DegreesOfFreedom" value="32"/>
+                        <property name="RotationOrder" value="XYZ"/>
+                        <property name="TranslationOffset" value="-0.0356054,0,0"/>
+                    </properties>
+                </joint>
+                <joint id="8737e339180d784:e6413fc78bb211ef" parent_name="RPinky2">
+                    <properties>
+                        <property name="NodeName" value="RPinky3" default_value="RPinky3"/>
+                        <property name="JointType" value="RPinky3"/>
+                        <property name="DegreesOfFreedom" value="32"/>
+                        <property name="RotationOrder" value="XYZ"/>
+                        <property name="TranslationOffset" value="-0.0178027,0,0"/>
+                    </properties>
+                </joint>
+                <joint id="8737e339180d784:e6413f998bb211ef" parent_name="Riley1_16th">
+                    <properties>
+                        <property name="NodeName" value="LThigh" default_value="LThigh"/>
+                        <property name="JointType" value="LThigh"/>
+                        <property name="DegreesOfFreedom" value="56"/>
+                        <property name="TranslationOffset" value="0.0936984,0,0"/>
+                    </properties>
+                </joint>
+                <joint id="8737e339180d784:e6413f9a8bb211ef" parent_name="LThigh">
+                    <properties>
+                        <property name="NodeName" value="LShin" default_value="LShin"/>
+                        <property name="JointType" value="LShin"/>
+                        <property name="DegreesOfFreedom" value="8"/>
+                        <property name="TranslationOffset" value="-0,-0.452084,0"/>
+                    </properties>
+                </joint>
+                <joint id="8737e339180d784:e6413f9b8bb211ef" parent_name="LShin">
+                    <properties>
+                        <property name="NodeName" value="LFoot" default_value="LFoot"/>
+                        <property name="JointType" value="LFoot"/>
+                        <property name="DegreesOfFreedom" value="56"/>
+                        <property name="TranslationOffset" value="-0,-0.418184,0"/>
+                    </properties>
+                </joint>
+                <joint id="8737e339180d784:e6413f9c8bb211ef" parent_name="LFoot">
+                    <properties>
+                        <property name="NodeName" value="LToe" default_value="LToe"/>
+                        <property name="JointType" value="LToe"/>
+                        <property name="DegreesOfFreedom" value="8"/>
+                        <property name="TranslationOffset" value="-0,-0.0609039,0.140548"/>
+                    </properties>
+                </joint>
+                <joint id="8737e339180d784:e6413f9d8bb211ef" parent_name="Riley1_16th">
+                    <properties>
+                        <property name="NodeName" value="RThigh" default_value="RThigh"/>
+                        <property name="JointType" value="RThigh"/>
+                        <property name="DegreesOfFreedom" value="56"/>
+                        <property name="TranslationOffset" value="-0.0936984,0,0"/>
+                    </properties>
+                </joint>
+                <joint id="8737e339180d784:e6413f9e8bb211ef" parent_name="RThigh">
+                    <properties>
+                        <property name="NodeName" value="RShin" default_value="RShin"/>
+                        <property name="JointType" value="RShin"/>
+                        <property name="DegreesOfFreedom" value="8"/>
+                        <property name="TranslationOffset" value="-0,-0.452084,0"/>
+                    </properties>
+                </joint>
+                <joint id="8737e339180d784:e6413f9f8bb211ef" parent_name="RShin">
+                    <properties>
+                        <property name="NodeName" value="RFoot" default_value="RFoot"/>
+                        <property name="JointType" value="RFoot"/>
+                        <property name="DegreesOfFreedom" value="56"/>
+                        <property name="TranslationOffset" value="-0,-0.418184,0"/>
+                    </properties>
+                </joint>
+                <joint id="8737e339180d784:e6413fa08bb211ef" parent_name="RFoot">
+                    <properties>
+                        <property name="NodeName" value="RToe" default_value="RToe"/>
+                        <property name="JointType" value="RToe"/>
+                        <property name="DegreesOfFreedom" value="8"/>
+                        <property name="TranslationOffset" value="-0,-0.0609039,0.140548"/>
+                    </properties>
+                </joint>
+            </joints>
+            <dofs>
+                <dof name="Riley1_16th_Translation_X">
+                    <elements>
+                        <element joint="Riley1_16th" channel="TX" weight="1"/>
+                    </elements>
+                </dof>
+                <dof name="Riley1_16th_Translation_Y">
+                    <elements>
+                        <element joint="Riley1_16th" channel="TY" weight="1"/>
+                    </elements>
+                </dof>
+                <dof name="Riley1_16th_Translation_Z">
+                    <elements>
+                        <element joint="Riley1_16th" channel="TZ" weight="1"/>
+                    </elements>
+                </dof>
+                <dof name="Riley1_16th_Rotation_X">
+                    <elements>
+                        <element joint="Riley1_16th" channel="RX" weight="1"/>
+                    </elements>
+                </dof>
+                <dof name="Riley1_16th_Rotation_Y">
+                    <elements>
+                        <element joint="Riley1_16th" channel="RY" weight="1"/>
+                    </elements>
+                </dof>
+                <dof name="Riley1_16th_Rotation_Z">
+                    <elements>
+                        <element joint="Riley1_16th" channel="RZ" weight="1"/>
+                    </elements>
+                </dof>
+                <dof name="Ab_Rotation_X">
+                    <elements>
+                        <element joint="Ab" channel="RX" weight="1"/>
+                    </elements>
+                    <range>-0.85,1</range>
+                    <spring>0.015,0.1</spring>
+                </dof>
+                <dof name="Chest_Rotation_X">
+                    <elements>
+                        <element joint="Chest" channel="RX" weight="1"/>
+                    </elements>
+                    <range>-0.3,0.9</range>
+                    <spring>0.15,0.3</spring>
+                </dof>
+                <dof name="Chest_Rotation_Z">
+                    <elements>
+                        <element joint="Chest" channel="RZ" weight="1"/>
+                    </elements>
+                    <range>-0.9,0.9</range>
+                    <spring>0.15,0</spring>
+                </dof>
+                <dof name="Neck_Rotation_X">
+                    <elements>
+                        <element joint="Neck" channel="RX" weight="1"/>
+                    </elements>
+                    <range>-1.3,1.3</range>
+                    <spring>0.004,0</spring>
+                </dof>
+                <dof name="Neck_Rotation_Z">
+                    <elements>
+                        <element joint="Neck" channel="RZ" weight="1"/>
+                    </elements>
+                    <range>-1.1,1.1</range>
+                    <spring>0.004,0</spring>
+                </dof>
+                <dof name="Head_Rotation_X">
+                    <elements>
+                        <element joint="Head" channel="RX" weight="1"/>
+                    </elements>
+                    <range>-1.57,1.2</range>
+                    <spring>0.004,0</spring>
+                </dof>
+                <dof name="Head_Rotation_Z">
+                    <elements>
+                        <element joint="Head" channel="RZ" weight="1"/>
+                    </elements>
+                    <range>-1.2,1.2</range>
+                    <spring>0.004,0</spring>
+                </dof>
+                <dof name="LShoulder_Rotation_X">
+                    <elements>
+                        <element joint="LShoulder" channel="RX" weight="1"/>
+                    </elements>
+                    <range>-0.4,0.4</range>
+                    <spring>0.025,0</spring>
+                </dof>
+                <dof name="LShoulder_Rotation_Y">
+                    <elements>
+                        <element joint="LShoulder" channel="RY" weight="-1"/>
+                    </elements>
+                    <range>-1,1</range>
+                    <spring>0.025,0</spring>
+                </dof>
+                <dof name="LShoulder_Rotation_Z">
+                    <elements>
+                        <element joint="LShoulder" channel="RZ" weight="-1"/>
+                    </elements>
+                    <range>-0.8,0.6</range>
+                    <spring>0.025,-0.1</spring>
+                </dof>
+                <dof name="RShoulder_Rotation_X">
+                    <elements>
+                        <element joint="RShoulder" channel="RX" weight="1"/>
+                    </elements>
+                    <range>-0.4,0.4</range>
+                    <spring>0.025,0</spring>
+                </dof>
+                <dof name="RShoulder_Rotation_Y">
+                    <elements>
+                        <element joint="RShoulder" channel="RY" weight="1"/>
+                    </elements>
+                    <range>-1,1</range>
+                    <spring>0.025,0</spring>
+                </dof>
+                <dof name="RShoulder_Rotation_Z">
+                    <elements>
+                        <element joint="RShoulder" channel="RZ" weight="1"/>
+                    </elements>
+                    <range>-0.8,0.6</range>
+                    <spring>0.025,-0.1</spring>
+                </dof>
+                <dof name="LUArm_Rotation_X">
+                    <elements>
+                        <element joint="LUArm" channel="RX" weight="1"/>
+                    </elements>
+                    <range>-1.57,1.57</range>
+                    <spring>0.004,0</spring>
+                </dof>
+                <dof name="LUArm_Rotation_Y">
+                    <elements>
+                        <element joint="LUArm" channel="RY" weight="-1"/>
+                    </elements>
+                    <range>-2,2.4</range>
+                    <spring>0.004,0</spring>
+                </dof>
+                <dof name="LUArm_Rotation_Z">
+                    <elements>
+                        <element joint="LUArm" channel="RZ" weight="-1"/>
+                    </elements>
+                    <range>-1.8,2.2</range>
+                    <spring>0.004,0.3</spring>
+                </dof>
+                <dof name="RUArm_Rotation_X">
+                    <elements>
+                        <element joint="RUArm" channel="RX" weight="1"/>
+                    </elements>
+                    <range>-1.57,1.57</range>
+                    <spring>0.004,0</spring>
+                </dof>
+                <dof name="RUArm_Rotation_Y">
+                    <elements>
+                        <element joint="RUArm" channel="RY" weight="1"/>
+                    </elements>
+                    <range>-2,2.4</range>
+                    <spring>0.004,0</spring>
+                </dof>
+                <dof name="RUArm_Rotation_Z">
+                    <elements>
+                        <element joint="RUArm" channel="RZ" weight="1"/>
+                    </elements>
+                    <range>-1.8,2.2</range>
+                    <spring>0.004,0.3</spring>
+                </dof>
+                <dof name="LFArm_Rotation_X">
+                    <elements>
+                        <element joint="LFArm" channel="RX" weight="1"/>
+                    </elements>
+                    <range>-2,2</range>
+                    <spring>0.004,0</spring>
+                </dof>
+                <dof name="LFArm_Rotation_Y">
+                    <elements>
+                        <element joint="LFArm" channel="RY" weight="-1"/>
+                    </elements>
+                    <range>-0.7,2.6</range>
+                    <spring>0.004,1</spring>
+                </dof>
+                <dof name="RFArm_Rotation_X">
+                    <elements>
+                        <element joint="RFArm" channel="RX" weight="1"/>
+                    </elements>
+                    <range>-2,2</range>
+                    <spring>0.004,0</spring>
+                </dof>
+                <dof name="RFArm_Rotation_Y">
+                    <elements>
+                        <element joint="RFArm" channel="RY" weight="1"/>
+                    </elements>
+                    <range>-0.7,2.6</range>
+                    <spring>0.004,1</spring>
+                </dof>
+                <dof name="LHand_Rotation_X">
+                    <elements>
+                        <element joint="LHand" channel="RX" weight="1"/>
+                    </elements>
+                    <range>-1,0.8</range>
+                    <spring>0.004,0</spring>
+                </dof>
+                <dof name="LHand_Rotation_Y">
+                    <elements>
+                        <element joint="LHand" channel="RY" weight="-1"/>
+                    </elements>
+                    <range>-1.2,0.5</range>
+                    <spring>0.004,-0.3</spring>
+                </dof>
+                <dof name="LHand_Rotation_Z">
+                    <elements>
+                        <element joint="LHand" channel="RZ" weight="-1"/>
+                    </elements>
+                    <range>-1.5,2</range>
+                    <spring>0.004,0.25</spring>
+                </dof>
+                <dof name="RHand_Rotation_X">
+                    <elements>
+                        <element joint="RHand" channel="RX" weight="1"/>
+                    </elements>
+                    <range>-1,0.8</range>
+                    <spring>0.004,0</spring>
+                </dof>
+                <dof name="RHand_Rotation_Y">
+                    <elements>
+                        <element joint="RHand" channel="RY" weight="1"/>
+                    </elements>
+                    <range>-1.2,0.5</range>
+                    <spring>0.004,-0.3</spring>
+                </dof>
+                <dof name="RHand_Rotation_Z">
+                    <elements>
+                        <element joint="RHand" channel="RZ" weight="1"/>
+                    </elements>
+                    <range>-1.5,2</range>
+                    <spring>0.004,0.25</spring>
+                </dof>
+                <dof name="LThigh_Rotation_X">
+                    <elements>
+                        <element joint="LThigh" channel="RX" weight="1"/>
+                    </elements>
+                    <range>-3,1</range>
+                    <spring>0.004,-1</spring>
+                </dof>
+                <dof name="LThigh_Rotation_Y">
+                    <elements>
+                        <element joint="LThigh" channel="RY" weight="-1"/>
+                    </elements>
+                    <range>-2.5,2.5</range>
+                    <spring>0.004,0</spring>
+                </dof>
+                <dof name="LThigh_Rotation_Z">
+                    <elements>
+                        <element joint="LThigh" channel="RZ" weight="-1"/>
+                    </elements>
+                    <range>-2.8,2</range>
+                    <spring>0.004,0</spring>
+                </dof>
+                <dof name="RThigh_Rotation_X">
+                    <elements>
+                        <element joint="RThigh" channel="RX" weight="1"/>
+                    </elements>
+                    <range>-3,1</range>
+                    <spring>0.004,-1</spring>
+                </dof>
+                <dof name="RThigh_Rotation_Y">
+                    <elements>
+                        <element joint="RThigh" channel="RY" weight="1"/>
+                    </elements>
+                    <range>-2.5,2.5</range>
+                    <spring>0.004,0</spring>
+                </dof>
+                <dof name="RThigh_Rotation_Z">
+                    <elements>
+                        <element joint="RThigh" channel="RZ" weight="1"/>
+                    </elements>
+                    <range>-2.8,2</range>
+                    <spring>0.004,0</spring>
+                </dof>
+                <dof name="LShin_Rotation_X">
+                    <elements>
+                        <element joint="LShin" channel="RX" weight="1"/>
+                    </elements>
+                    <range>-0.5,3</range>
+                    <spring>0.0025,0.5</spring>
+                </dof>
+                <dof name="RShin_Rotation_X">
+                    <elements>
+                        <element joint="RShin" channel="RX" weight="1"/>
+                    </elements>
+                    <range>-0.5,3</range>
+                    <spring>0.0025,0.5</spring>
+                </dof>
+                <dof name="LFoot_Rotation_X">
+                    <elements>
+                        <element joint="LFoot" channel="RX" weight="1"/>
+                    </elements>
+                    <range>-1,1.2</range>
+                    <spring>0.004,0.2</spring>
+                </dof>
+                <dof name="LFoot_Rotation_Y">
+                    <elements>
+                        <element joint="LFoot" channel="RY" weight="-1"/>
+                    </elements>
+                    <range>-1,1.4</range>
+                    <spring>0.004,0</spring>
+                </dof>
+                <dof name="LFoot_Rotation_Z">
+                    <elements>
+                        <element joint="LFoot" channel="RZ" weight="-1"/>
+                    </elements>
+                    <range>-1.5,1.5</range>
+                    <spring>0.004,0</spring>
+                </dof>
+                <dof name="RFoot_Rotation_X">
+                    <elements>
+                        <element joint="RFoot" channel="RX" weight="1"/>
+                    </elements>
+                    <range>-1,1.2</range>
+                    <spring>0.004,0.2</spring>
+                </dof>
+                <dof name="RFoot_Rotation_Y">
+                    <elements>
+                        <element joint="RFoot" channel="RY" weight="1"/>
+                    </elements>
+                    <range>-1,1.4</range>
+                    <spring>0.004,0</spring>
+                </dof>
+                <dof name="RFoot_Rotation_Z">
+                    <elements>
+                        <element joint="RFoot" channel="RZ" weight="1"/>
+                    </elements>
+                    <range>-1.5,1.5</range>
+                    <spring>0.004,0</spring>
+                </dof>
+                <dof name="LToe_Rotation_X">
+                    <elements>
+                        <element joint="LToe" channel="RX" weight="1"/>
+                    </elements>
+                    <range>-1.5,1.5</range>
+                    <spring>0.004,0</spring>
+                </dof>
+                <dof name="RToe_Rotation_X">
+                    <elements>
+                        <element joint="RToe" channel="RX" weight="1"/>
+                    </elements>
+                    <range>-1.5,1.5</range>
+                    <spring>0.004,0</spring>
+                </dof>
+                <dof name="Head_Twist">
+                    <elements>
+                        <element joint="Neck" channel="RY" weight="1"/>
+                        <element joint="Head" channel="RY" weight="1"/>
+                    </elements>
+                    <range>-1,1</range>
+                    <spring>0.004,0</spring>
+                </dof>
+                <dof name="Spine_Stretch">
+                    <elements>
+                        <element joint="Ab" channel="TY" weight="1"/>
+                        <element joint="Chest" channel="TY" weight="1"/>
+                    </elements>
+                    <range>-0.02,0.02</range>
+                    <spring>1,0</spring>
+                </dof>
+                <dof name="Neck_Squash">
+                    <elements>
+                        <element joint="Neck" channel="TY" weight="1"/>
+                        <element joint="Head" channel="TY" weight="1"/>
+                    </elements>
+                    <range>-0.04,0.04</range>
+                    <spring>1,0</spring>
+                </dof>
+                <dof name="Spine_Twist">
+                    <elements>
+                        <element joint="Ab" channel="RY" weight="1"/>
+                        <element joint="Chest" channel="RY" weight="1"/>
+                    </elements>
+                    <range>-1,1</range>
+                    <spring>0.004,0</spring>
+                </dof>
+                <dof name="LThumb1_Rotation_Z">
+                    <elements>
+                        <element joint="LThumb1" channel="RZ" weight="-1"/>
+                    </elements>
+                    <range>-0.5,1</range>
+                    <spring>0.00065,0.2</spring>
+                </dof>
+                <dof name="LThumb1_Rotation_Y">
+                    <elements>
+                        <element joint="LThumb1" channel="RY" weight="-1"/>
+                    </elements>
+                    <range>-0.5,1</range>
+                    <spring>0.00065,0.4</spring>
+                </dof>
+                <dof name="RThumb1_Rotation_Z">
+                    <elements>
+                        <element joint="RThumb1" channel="RZ" weight="1"/>
+                    </elements>
+                    <range>-0.5,1</range>
+                    <spring>0.00065,0.2</spring>
+                </dof>
+                <dof name="RThumb1_Rotation_Y">
+                    <elements>
+                        <element joint="RThumb1" channel="RY" weight="1"/>
+                    </elements>
+                    <range>-0.5,1</range>
+                    <spring>0.00065,0.4</spring>
+                </dof>
+                <dof name="LThumb2_Rotation_Z">
+                    <elements>
+                        <element joint="LThumb2" channel="RZ" weight="-1"/>
+                    </elements>
+                    <range>-0.5,0.5</range>
+                    <spring>0.00065,0</spring>
+                </dof>
+                <dof name="RThumb2_Rotation_Z">
+                    <elements>
+                        <element joint="RThumb2" channel="RZ" weight="1"/>
+                    </elements>
+                    <range>-0.5,0.5</range>
+                    <spring>0.00065,0</spring>
+                </dof>
+                <dof name="LThumb3_Rotation_Z">
+                    <elements>
+                        <element joint="LThumb3" channel="RZ" weight="-1"/>
+                    </elements>
+                    <range>-1.57,1.57</range>
+                    <spring>0.00065,0</spring>
+                </dof>
+                <dof name="RThumb3_Rotation_Z">
+                    <elements>
+                        <element joint="RThumb3" channel="RZ" weight="1"/>
+                    </elements>
+                    <range>-1.57,1.57</range>
+                    <spring>0.00065,0</spring>
+                </dof>
+                <dof name="LIndex1_Rotation_Y">
+                    <elements>
+                        <element joint="LIndex1" channel="RY" weight="-1"/>
+                        <element joint="LMiddle1" channel="RY" weight="-0.5"/>
+                    </elements>
+                    <range>-0.1,0.7</range>
+                    <spring>0.00065,0.3</spring>
+                </dof>
+                <dof name="LIndex1_Rotation_Z">
+                    <elements>
+                        <element joint="LIndex1" channel="RZ" weight="-1"/>
+                        <element joint="LMiddle1" channel="RZ" weight="-0.5"/>
+                        <element joint="LRing1" channel="RZ" weight="-0.25"/>
+                        <element joint="LIndex2" channel="RZ" weight="-1"/>
+                        <element joint="LIndex3" channel="RZ" weight="-1"/>
+                        <element joint="LMiddle2" channel="RZ" weight="-0.5"/>
+                        <element joint="LMiddle3" channel="RZ" weight="-0.5"/>
+                        <element joint="LRing2" channel="RZ" weight="-0.25"/>
+                        <element joint="LRing3" channel="RZ" weight="-0.25"/>
+                    </elements>
+                    <range>-0.1,1.7</range>
+                    <spring>0.0025,0.1</spring>
+                </dof>
+                <dof name="RIndex1_Rotation_Y">
+                    <elements>
+                        <element joint="RIndex1" channel="RY" weight="1"/>
+                        <element joint="RMiddle1" channel="RY" weight="0.5"/>
+                    </elements>
+                    <range>-0.1,0.7</range>
+                    <spring>0.00065,0.3</spring>
+                </dof>
+                <dof name="RIndex1_Rotation_Z">
+                    <elements>
+                        <element joint="RIndex1" channel="RZ" weight="1"/>
+                        <element joint="RMiddle1" channel="RZ" weight="0.5"/>
+                        <element joint="RRing1" channel="RZ" weight="0.25"/>
+                        <element joint="RIndex2" channel="RZ" weight="1"/>
+                        <element joint="RIndex3" channel="RZ" weight="1"/>
+                        <element joint="RMiddle2" channel="RZ" weight="0.5"/>
+                        <element joint="RMiddle3" channel="RZ" weight="0.5"/>
+                        <element joint="RRing2" channel="RZ" weight="0.25"/>
+                        <element joint="RRing3" channel="RZ" weight="0.25"/>
+                    </elements>
+                    <range>-0.1,1.7</range>
+                    <spring>0.0025,0.1</spring>
+                </dof>
+                <dof name="LPinky1_Rotation_Y">
+                    <elements>
+                        <element joint="LPinky1" channel="RY" weight="-1"/>
+                        <element joint="LRing1" channel="RY" weight="-0.5"/>
+                    </elements>
+                    <range>-1,0.2</range>
+                    <spring>0.00065,-0.2</spring>
+                </dof>
+                <dof name="LPinky1_Rotation_Z">
+                    <elements>
+                        <element joint="LPinky1" channel="RZ" weight="-1"/>
+                        <element joint="LMiddle1" channel="RZ" weight="-0.5"/>
+                        <element joint="LRing1" channel="RZ" weight="-0.75"/>
+                        <element joint="LPinky2" channel="RZ" weight="-1"/>
+                        <element joint="LPinky3" channel="RZ" weight="-1"/>
+                        <element joint="LMiddle2" channel="RZ" weight="-0.5"/>
+                        <element joint="LMiddle3" channel="RZ" weight="-0.5"/>
+                        <element joint="LRing2" channel="RZ" weight="-0.75"/>
+                        <element joint="LRing3" channel="RZ" weight="-0.75"/>
+                    </elements>
+                    <range>-0.1,1.7</range>
+                    <spring>0.0025,0.1</spring>
+                </dof>
+                <dof name="RPinky1_Rotation_Y">
+                    <elements>
+                        <element joint="RPinky1" channel="RY" weight="1"/>
+                        <element joint="RRing1" channel="RY" weight="0.5"/>
+                    </elements>
+                    <range>-1,0.2</range>
+                    <spring>0.00065,-0.2</spring>
+                </dof>
+                <dof name="RPinky1_Rotation_Z">
+                    <elements>
+                        <element joint="RPinky1" channel="RZ" weight="1"/>
+                        <element joint="RMiddle1" channel="RZ" weight="0.5"/>
+                        <element joint="RRing1" channel="RZ" weight="0.75"/>
+                        <element joint="RPinky2" channel="RZ" weight="1"/>
+                        <element joint="RPinky3" channel="RZ" weight="1"/>
+                        <element joint="RMiddle2" channel="RZ" weight="0.5"/>
+                        <element joint="RMiddle3" channel="RZ" weight="0.5"/>
+                        <element joint="RRing2" channel="RZ" weight="0.75"/>
+                        <element joint="RRing3" channel="RZ" weight="0.75"/>
+                    </elements>
+                    <range>-0.1,1.7</range>
+                    <spring>0.0025,0.1</spring>
+                </dof>
+            </dofs>
+            <constraints>
+                <constraint name="HeadTop" id="13" joint_name="Head">
+                    <offset>-0,0.143429,-0.0187397</offset>
+                    <active_id>0</active_id>
+                    <weight>1</weight>
+                    <color>0.913725,0.501961,1</color>
+                </constraint>
+                <constraint name="HeadFront" id="14" joint_name="Head">
+                    <offset>-0.0127112,0.114871,0.0757787</offset>
+                    <active_id>0</active_id>
+                    <weight>1</weight>
+                    <color>0.913725,0.501961,1</color>
+                </constraint>
+                <constraint name="HeadSide" id="15" joint_name="Head">
+                    <offset>0.0934286,0.033555,-0.00183702</offset>
+                    <active_id>0</active_id>
+                    <weight>1</weight>
+                    <color>0.792157,0,1</color>
+                </constraint>
+                <constraint name="BackTop" id="9" joint_name="Chest">
+                    <offset>0.000461102,0.258945,-0.0863154</offset>
+                    <active_id>0</active_id>
+                    <weight>1</weight>
+                    <color>0.913725,0.501961,1</color>
+                </constraint>
+                <constraint name="BackLeft" id="10" joint_name="Chest">
+                    <offset>0.108343,0.0770881,-0.120777</offset>
+                    <active_id>0</active_id>
+                    <weight>1</weight>
+                    <color>0,0.921569,1</color>
+                </constraint>
+                <constraint name="BackRight" id="11" joint_name="Chest">
+                    <offset>-0.0966201,0.100715,-0.123935</offset>
+                    <active_id>0</active_id>
+                    <weight>1</weight>
+                    <color>0.792157,0,1</color>
+                </constraint>
+                <constraint name="Chest" id="12" joint_name="Chest">
+                    <offset>0.00937319,0.170168,0.110511</offset>
+                    <active_id>0</active_id>
+                    <weight>1</weight>
+                    <color>0.913725,0.501961,1</color>
+                </constraint>
+                <constraint name="LShoulderTop" id="16" joint_name="LShoulder">
+                    <offset>0.120495,0.0437511,0.00485992</offset>
+                    <active_id>0</active_id>
+                    <weight>1</weight>
+                    <color>0,0.921569,1</color>
+                </constraint>
+                <constraint name="LShoulderBack" id="17" joint_name="LShoulder">
+                    <offset>0.121363,-0.0117377,-0.0803871</offset>
+                    <active_id>0</active_id>
+                    <weight>1</weight>
+                    <color>1,0,0</color>
+                </constraint>
+                <constraint name="LUArmHigh" id="19" joint_name="LUArm">
+                    <offset>0.16995,-0.0577152,-0.0491271</offset>
+                    <active_id>0</active_id>
+                    <weight>1</weight>
+                    <color>1,0,0</color>
+                </constraint>
+                <constraint name="LElbowOut" id="18" joint_name="LUArm">
+                    <offset>0.277197,0.020617,0.0111842</offset>
+                    <active_id>0</active_id>
+                    <weight>1</weight>
+                    <color>0,0.921569,1</color>
+                </constraint>
+                <constraint name="LWristOut" id="21" joint_name="LHand">
+                    <offset>0.00352275,0.0173481,-0.03478</offset>
+                    <active_id>0</active_id>
+                    <weight>2.5</weight>
+                    <color>0,0.921569,1</color>
+                </constraint>
+                <constraint name="LWristIn" id="22" joint_name="LHand">
+                    <offset>0.00455332,0.0173479,0.0485795</offset>
+                    <active_id>0</active_id>
+                    <weight>2.5</weight>
+                    <color>1,0,0</color>
+                </constraint>
+                <constraint name="LHandOut" id="20" joint_name="LHand">
+                    <offset>0.0652115,0.0084945,-0.057507</offset>
+                    <active_id>0</active_id>
+                    <weight>2.5</weight>
+                    <color>0.509804,0.901961,0</color>
+                </constraint>
+                <constraint name="RShoulderTop" id="23" joint_name="RShoulder">
+                    <offset>-0.0898004,0.0637094,0.00807667</offset>
+                    <active_id>0</active_id>
+                    <weight>1</weight>
+                    <color>0.509804,0.901961,0</color>
+                </constraint>
+                <constraint name="RShoulderBack" id="24" joint_name="RShoulder">
+                    <offset>-0.0826056,0.0144454,-0.102353</offset>
+                    <active_id>0</active_id>
+                    <weight>1</weight>
+                    <color>0.792157,0,1</color>
+                </constraint>
+                <constraint name="RUArmHigh" id="26" joint_name="RUArm">
+                    <offset>-0.150751,-0.0348268,-0.0876155</offset>
+                    <active_id>0</active_id>
+                    <weight>1</weight>
+                    <color>0.792157,0,1</color>
+                </constraint>
+                <constraint name="RElbowOut" id="25" joint_name="RUArm">
+                    <offset>-0.241639,0.0328753,-0.0368891</offset>
+                    <active_id>0</active_id>
+                    <weight>1</weight>
+                    <color>0.509804,0.901961,0</color>
+                </constraint>
+                <constraint name="RWristOut" id="28" joint_name="RHand">
+                    <offset>0.000220895,0.0180218,-0.0464115</offset>
+                    <active_id>0</active_id>
+                    <weight>2.5</weight>
+                    <color>0.509804,0.901961,0</color>
+                </constraint>
+                <constraint name="RWristIn" id="29" joint_name="RHand">
+                    <offset>0.0122771,0.0180218,0.0362046</offset>
+                    <active_id>0</active_id>
+                    <weight>2.5</weight>
+                    <color>0.792157,0,1</color>
+                </constraint>
+                <constraint name="RHandOut" id="27" joint_name="RHand">
+                    <offset>-0.0660006,0.00806904,-0.0572295</offset>
+                    <active_id>0</active_id>
+                    <weight>2.5</weight>
+                    <color>0.913725,0.501961,1</color>
+                </constraint>
+                <constraint name="WaistLFront" id="5" joint_name="Riley1_16th">
+                    <offset>0.158105,0.0681551,0.0950224</offset>
+                    <active_id>0</active_id>
+                    <weight>1</weight>
+                    <color>0,0.921569,1</color>
+                </constraint>
+                <constraint name="WaistLBack" id="7" joint_name="Riley1_16th">
+                    <offset>0.118605,0.105261,-0.0950222</offset>
+                    <active_id>0</active_id>
+                    <weight>1</weight>
+                    <color>0,0.921569,1</color>
+                </constraint>
+                <constraint name="WaistRBack" id="8" joint_name="Riley1_16th">
+                    <offset>-0.121057,0.120659,-0.100411</offset>
+                    <active_id>0</active_id>
+                    <weight>1</weight>
+                    <color>0.792157,0,1</color>
+                </constraint>
+                <constraint name="WaistRFront" id="6" joint_name="Riley1_16th">
+                    <offset>-0.141181,0.080718,0.100411</offset>
+                    <active_id>0</active_id>
+                    <weight>1</weight>
+                    <color>0.792157,0,1</color>
+                </constraint>
+                <constraint name="LThigh" id="30" joint_name="LThigh">
+                    <offset>0.00558448,-0.358508,0.105345</offset>
+                    <active_id>0</active_id>
+                    <weight>1</weight>
+                    <color>1,0,0</color>
+                </constraint>
+                <constraint name="LKneeOut" id="31" joint_name="LThigh">
+                    <offset>0.0561891,-0.450723,8.29697e-05</offset>
+                    <active_id>0</active_id>
+                    <weight>1</weight>
+                    <color>0,0.921569,1</color>
+                </constraint>
+                <constraint name="LShin" id="32" joint_name="LShin">
+                    <offset>-0.000767112,-0.106422,0.051569</offset>
+                    <active_id>0</active_id>
+                    <weight>1</weight>
+                    <color>1,0,0</color>
+                </constraint>
+                <constraint name="LAnkleOut" id="33" joint_name="LShin">
+                    <offset>0.0374061,-0.410212,9.72748e-05</offset>
+                    <active_id>0</active_id>
+                    <weight>1</weight>
+                    <color>0,0.921569,1</color>
+                </constraint>
+                <constraint name="LHeel" id="36" joint_name="LFoot">
+                    <offset>-0.0309706,-0.0243429,-0.070117</offset>
+                    <active_id>0</active_id>
+                    <weight>1</weight>
+                    <color>1,0,0</color>
+                </constraint>
+                <constraint name="LToeIn" id="34" joint_name="LFoot">
+                    <offset>-0.0657054,-0.030739,0.13068</offset>
+                    <active_id>0</active_id>
+                    <weight>1</weight>
+                    <color>1,0,0</color>
+                </constraint>
+                <constraint name="LToeTip" id="37" joint_name="LToe">
+                    <offset>0.00342333,0.0461826,0.0623553</offset>
+                    <active_id>0</active_id>
+                    <weight>1</weight>
+                    <color>0,0.921569,1</color>
+                </constraint>
+                <constraint name="LToeOut" id="35" joint_name="LFoot">
+                    <offset>0.0657055,-0.0309491,0.103135</offset>
+                    <active_id>0</active_id>
+                    <weight>1</weight>
+                    <color>0,0.529412,1</color>
+                </constraint>
+                <constraint name="RThigh" id="38" joint_name="RThigh">
+                    <offset>-0.023311,-0.170638,0.125165</offset>
+                    <active_id>0</active_id>
+                    <weight>1</weight>
+                    <color>0.792157,0,1</color>
+                </constraint>
+                <constraint name="RKneeOut" id="39" joint_name="RThigh">
+                    <offset>-0.0561993,-0.453787,-1.95503e-05</offset>
+                    <active_id>0</active_id>
+                    <weight>1</weight>
+                    <color>0.509804,0.901961,0</color>
+                </constraint>
+                <constraint name="RShin" id="40" joint_name="RShin">
+                    <offset>0.00261992,-0.2405,0.0475001</offset>
+                    <active_id>0</active_id>
+                    <weight>1</weight>
+                    <color>0.792157,0,1</color>
+                </constraint>
+                <constraint name="RAnkleOut" id="41" joint_name="RShin">
+                    <offset>-0.0374092,-0.430787,9.75132e-05</offset>
+                    <active_id>0</active_id>
+                    <weight>1</weight>
+                    <color>0.509804,0.901961,0</color>
+                </constraint>
+                <constraint name="RHeel" id="44" joint_name="RFoot">
+                    <offset>0.0172486,-0.0204908,-0.0708187</offset>
+                    <active_id>0</active_id>
+                    <weight>1</weight>
+                    <color>0.792157,0,1</color>
+                </constraint>
+                <constraint name="RToeIn" id="42" joint_name="RFoot">
+                    <offset>0.0652568,-0.0367641,0.113051</offset>
+                    <active_id>0</active_id>
+                    <weight>1</weight>
+                    <color>0.792157,0,1</color>
+                </constraint>
+                <constraint name="RToeTip" id="45" joint_name="RToe">
+                    <offset>0.0134207,0.0391218,0.0655105</offset>
+                    <active_id>0</active_id>
+                    <weight>1</weight>
+                    <color>0.509804,0.901961,0</color>
+                </constraint>
+                <constraint name="RToeOut" id="43" joint_name="RFoot">
+                    <offset>-0.065257,-0.0394102,0.110493</offset>
+                    <active_id>0</active_id>
+                    <weight>1</weight>
+                    <color>0,0.529412,1</color>
+                </constraint>
+            </constraints>
+            <marker_sticks>
+                <!--The "origin" and "end" tags in this section correspond with the "name" values in <marker_names>-->
+                <marker_stick origin="WaistLFront" end="WaistLBack" color="222 0 255"/>
+                <marker_stick origin="WaistRFront" end="WaistRBack" color="222 0 255"/>
+                <marker_stick origin="WaistLBack" end="WaistRBack" color="222 0 255"/>
+                <marker_stick origin="WaistRBack" end="WaistLFront" color="222 0 255"/>
+                <marker_stick origin="WaistRFront" end="WaistLBack" color="222 0 255"/>
+                <marker_stick origin="WaistLFront" end="LThigh" color="0 235 255"/>
+                <marker_stick origin="WaistLBack" end="LThigh" color="0 235 255"/>
+                <marker_stick origin="WaistRFront" end="RThigh" color="127 255 0"/>
+                <marker_stick origin="WaistRBack" end="RThigh" color="127 255 0"/>
+                <marker_stick origin="WaistLBack" end="LKneeOut" color="0 235 255"/>
+                <marker_stick origin="WaistRBack" end="RKneeOut" color="127 255 0"/>
+                <marker_stick origin="BackTop" end="BackLeft" color="222 0 255"/>
+                <marker_stick origin="BackTop" end="BackRight" color="222 0 255"/>
+                <marker_stick origin="Chest" end="RShoulderTop" color="127 255 0"/>
+                <marker_stick origin="Chest" end="LShoulderTop" color="0 235 255"/>
+                <marker_stick origin="BackLeft" end="LShoulderBack" color="0 235 255"/>
+                <marker_stick origin="BackRight" end="RShoulderBack" color="127 255 0"/>
+                <marker_stick origin="HeadTop" end="HeadFront" color="222 0 255"/>
+                <marker_stick origin="HeadTop" end="BackTop" color="222 0 255"/>
+                <marker_stick origin="HeadFront" end="HeadSide" color="222 0 255"/>
+                <marker_stick origin="HeadTop" end="HeadSide" color="222 0 255"/>
+                <marker_stick origin="LShoulderBack" end="LShoulderTop" color="0 235 255"/>
+                <marker_stick origin="LShoulderBack" end="LUArmHigh" color="0 235 255"/>
+                <marker_stick origin="LShoulderTop" end="LUArmHigh" color="0 235 255"/>
+                <marker_stick origin="LUArmHigh" end="LElbowOut" color="0 235 255"/>
+                <marker_stick origin="LElbowOut" end="LWristOut" color="0 235 255"/>
+                <marker_stick origin="LElbowOut" end="LWristIn" color="0 235 255"/>
+                <marker_stick origin="LWristOut" end="LWristIn" color="0 235 255"/>
+                <marker_stick origin="LHandOut" end="LWristOut" color="0 235 255"/>
+                <marker_stick origin="LHandOut" end="LWristIn" color="0 235 255"/>
+                <marker_stick origin="RShoulderBack" end="RShoulderTop" color="127 255 0"/>
+                <marker_stick origin="RShoulderBack" end="RUArmHigh" color="127 255 0"/>
+                <marker_stick origin="RShoulderTop" end="RUArmHigh" color="127 255 0"/>
+                <marker_stick origin="RUArmHigh" end="RElbowOut" color="127 255 0"/>
+                <marker_stick origin="RElbowOut" end="RWristOut" color="127 255 0"/>
+                <marker_stick origin="RElbowOut" end="RWristIn" color="127 255 0"/>
+                <marker_stick origin="RWristOut" end="RWristIn" color="127 255 0"/>
+                <marker_stick origin="RHandOut" end="RWristOut" color="127 255 0"/>
+                <marker_stick origin="RHandOut" end="RWristIn" color="127 255 0"/>
+                <marker_stick origin="LThigh" end="LKneeOut" color="0 235 255"/>
+                <marker_stick origin="LKneeOut" end="LShin" color="0 235 255"/>
+                <marker_stick origin="LKneeOut" end="LAnkleOut" color="0 235 255"/>
+                <marker_stick origin="LShin" end="LAnkleOut" color="0 235 255"/>
+                <marker_stick origin="LShin" end="LHeel" color="0 235 255"/>
+                <marker_stick origin="LAnkleOut" end="LHeel" color="0 235 255"/>
+                <marker_stick origin="LToeIn" end="LToeTip" color="0 235 255"/>
+                <marker_stick origin="LHeel" end="LToeIn" color="0 235 255"/>
+                <marker_stick origin="LToeTip" end="LToeIn" color="0 235 255"/>
+                <marker_stick origin="LToeTip" end="LToeOut" color="0 235 255"/>
+                <marker_stick origin="LToeIn" end="LToeOut" color="0 235 255"/>
+                <marker_stick origin="LHeel" end="LToeOut" color="0 235 255"/>
+                <marker_stick origin="RThigh" end="RKneeOut" color="127 255 0"/>
+                <marker_stick origin="RKneeOut" end="RShin" color="127 255 0"/>
+                <marker_stick origin="RKneeOut" end="RAnkleOut" color="127 255 0"/>
+                <marker_stick origin="RShin" end="RAnkleOut" color="127 255 0"/>
+                <marker_stick origin="RShin" end="RHeel" color="127 255 0"/>
+                <marker_stick origin="RAnkleOut" end="RHeel" color="127 255 0"/>
+                <marker_stick origin="RToeIn" end="RToeTip" color="127 255 0"/>
+                <marker_stick origin="RHeel" end="RToeIn" color="127 255 0"/>
+                <marker_stick origin="RToeTip" end="RToeIn" color="127 255 0"/>
+                <marker_stick origin="RToeTip" end="RToeOut" color="127 255 0"/>
+                <marker_stick origin="RToeIn" end="RToeOut" color="127 255 0"/>
+                <marker_stick origin="RHeel" end="RToeOut" color="127 255 0"/>
+            </marker_sticks>
+            <label_graph id="8737e339180d784:e6413f8a8bb211ef">
+                <row id="12"/>
+                <row id="23">
+                    <item id="12" mean_sq="0.0345573" inv_var="8471.67"/>
+                </row>
+                <row id="16">
+                    <item id="12" mean_sq="0.0359344" inv_var="6710.5"/>
+                    <item id="23" mean_sq="0.0779372" inv_var="2790.26"/>
+                </row>
+                <row id="9">
+                    <item id="12" mean_sq="0.0467268" inv_var="383954"/>
+                    <item id="23" mean_sq="0.0252569" inv_var="8535.92"/>
+                    <item id="16" mean_sq="0.0338664" inv_var="6113.1"/>
+                </row>
+                <row id="10">
+                    <item id="12" mean_sq="0.0720021" inv_var="249338"/>
+                    <item id="23" mean_sq="0.0967067" inv_var="8843.43"/>
+                    <item id="16" mean_sq="0.0399104" inv_var="3064.52"/>
+                    <item id="9" mean_sq="0.0458937" inv_var="401971"/>
+                </row>
+                <row id="11">
+                    <item id="12" mean_sq="0.071077" inv_var="246272"/>
+                    <item id="23" mean_sq="0.0380282" inv_var="4650.42"/>
+                    <item id="16" mean_sq="0.0937699" inv_var="5731.31"/>
+                    <item id="9" mean_sq="0.0359086" inv_var="505806"/>
+                    <item id="10" mean_sq="0.0426479" inv_var="393420"/>
+                </row>
+                <row id="17">
+                    <item id="12" mean_sq="0.0580584" inv_var="9523.41"/>
+                    <item id="23" mean_sq="0.0910636" inv_var="3421.28"/>
+                    <item id="16" mean_sq="0.0103579" inv_var="1.58244e+06"/>
+                    <item id="9" mean_sq="0.0338502" inv_var="4876.67"/>
+                    <item id="10" mean_sq="0.0146925" inv_var="5205.59"/>
+                    <item id="11" mean_sq="0.0714596" inv_var="1820.14"/>
+                </row>
+                <row id="19">
+                    <item id="12" mean_sq="0.1149" inv_var="1195.07"/>
+                    <item id="23" mean_sq="0.196488" inv_var="1290.43"/>
+                    <item id="16" mean_sq="0.037006" inv_var="19606.1"/>
+                    <item id="9" mean_sq="0.114338" inv_var="963.439"/>
+                    <item id="10" mean_sq="0.0542837" inv_var="623.935"/>
+                    <item id="11" mean_sq="0.168698" inv_var="353.653"/>
+                    <item id="17" mean_sq="0.0278573" inv_var="7749.67"/>
+                </row>
+                <row id="18">
+                    <item id="12" mean_sq="0.172496" inv_var="514.248"/>
+                    <item id="23" mean_sq="0.280644" inv_var="486.636"/>
+                    <item id="16" mean_sq="0.0696341" inv_var="10638.4"/>
+                    <item id="9" mean_sq="0.183244" inv_var="517.301"/>
+                    <item id="10" mean_sq="0.132452" inv_var="272.421"/>
+                    <item id="11" mean_sq="0.28214" inv_var="337.35"/>
+                    <item id="17" mean_sq="0.0784173" inv_var="2783.23"/>
+                    <item id="19" mean_sq="0.0212676" inv_var="886394"/>
+                </row>
+                <row id="24">
+                    <item id="12" mean_sq="0.0619278" inv_var="35311.9"/>
+                    <item id="23" mean_sq="0.0146819" inv_var="1.17523e+06"/>
+                    <item id="16" mean_sq="0.0858118" inv_var="2206.31"/>
+                    <item id="9" mean_sq="0.0199201" inv_var="6775.59"/>
+                    <item id="10" mean_sq="0.0659231" inv_var="1785.3"/>
+                    <item id="11" mean_sq="0.0115367" inv_var="8353.81"/>
+                    <item id="17" mean_sq="0.0772129" inv_var="1170.28"/>
+                    <item id="19" mean_sq="0.184964" inv_var="375.049"/>
+                </row>
+                <row id="26">
+                    <item id="12" mean_sq="0.125805" inv_var="1687.32"/>
+                    <item id="23" mean_sq="0.0458529" inv_var="12130.5"/>
+                    <item id="16" mean_sq="0.201995" inv_var="924.866"/>
+                    <item id="9" mean_sq="0.0970289" inv_var="818.838"/>
+                    <item id="10" mean_sq="0.160891" inv_var="292.34"/>
+                    <item id="11" mean_sq="0.0459665" inv_var="823.381"/>
+                    <item id="17" mean_sq="0.192353" inv_var="347.284"/>
+                    <item id="24" mean_sq="0.0333515" inv_var="4439.26"/>
+                </row>
+                <row id="25">
+                    <item id="12" mean_sq="0.17138" inv_var="731.203"/>
+                    <item id="23" mean_sq="0.068755" inv_var="5300.37"/>
+                    <item id="16" mean_sq="0.273764" inv_var="579.809"/>
+                    <item id="9" mean_sq="0.148383" inv_var="503.154"/>
+                    <item id="10" mean_sq="0.25444" inv_var="276.223"/>
+                    <item id="11" mean_sq="0.104083" inv_var="387.895"/>
+                    <item id="17" mean_sq="0.278031" inv_var="354.105"/>
+                    <item id="24" mean_sq="0.0742429" inv_var="2223.07"/>
+                    <item id="26" mean_sq="0.0154373" inv_var="1.14148e+06"/>
+                </row>
+                <row id="15">
+                    <item id="12" mean_sq="0.0724285" inv_var="243.292"/>
+                    <item id="23" mean_sq="0.0745759" inv_var="349.084"/>
+                    <item id="16" mean_sq="0.0470424" inv_var="302.175"/>
+                    <item id="9" mean_sq="0.0445821" inv_var="558.08"/>
+                    <item id="17" mean_sq="0.076631" inv_var="176.423"/>
+                </row>
+                <row id="21">
+                    <item id="16" mean_sq="0.259123" inv_var="1420.97"/>
+                    <item id="17" mean_sq="0.261503" inv_var="480.42"/>
+                    <item id="19" mean_sq="0.131126" inv_var="3194.3"/>
+                    <item id="18" mean_sq="0.0635975" inv_var="13624.5"/>
+                </row>
+                <row id="22">
+                    <item id="16" mean_sq="0.26013" inv_var="1016.67"/>
+                    <item id="17" mean_sq="0.274184" inv_var="571.108"/>
+                    <item id="19" mean_sq="0.139836" inv_var="3270.74"/>
+                    <item id="18" mean_sq="0.0636595" inv_var="8792.85"/>
+                    <item id="21" mean_sq="0.00695845" inv_var="2.35912e+06"/>
+                </row>
+                <row id="20">
+                    <item id="16" mean_sq="0.324222" inv_var="806.207"/>
+                    <item id="19" mean_sq="0.17499" inv_var="1454.5"/>
+                    <item id="18" mean_sq="0.0988175" inv_var="6123.39"/>
+                    <item id="21" mean_sq="0.00442044" inv_var="3.29972e+06"/>
+                    <item id="22" mean_sq="0.0149991" inv_var="1.1824e+06"/>
+                </row>
+                <row id="29">
+                    <item id="23" mean_sq="0.274009" inv_var="818.03"/>
+                    <item id="24" mean_sq="0.295638" inv_var="422.296"/>
+                    <item id="26" mean_sq="0.144461" inv_var="2534.11"/>
+                    <item id="25" mean_sq="0.0768182" inv_var="7152.71"/>
+                </row>
+                <row id="14">
+                    <item id="12" mean_sq="0.101796" inv_var="142.295"/>
+                    <item id="23" mean_sq="0.0839549" inv_var="183.435"/>
+                    <item id="9" mean_sq="0.0843452" inv_var="276.438"/>
+                    <item id="15" mean_sq="0.0239037" inv_var="756488"/>
+                </row>
+                <row id="28">
+                    <item id="23" mean_sq="0.288415" inv_var="711.075"/>
+                    <item id="26" mean_sq="0.140961" inv_var="1292.93"/>
+                    <item id="25" mean_sq="0.0792679" inv_var="4671.16"/>
+                    <item id="29" mean_sq="0.00700232" inv_var="2.48198e+06"/>
+                </row>
+                <row id="27">
+                    <item id="23" mean_sq="0.360644" inv_var="513.33"/>
+                    <item id="26" mean_sq="0.189766" inv_var="740.667"/>
+                    <item id="25" mean_sq="0.118906" inv_var="2635.97"/>
+                    <item id="29" mean_sq="0.0149519" inv_var="1.22703e+06"/>
+                    <item id="28" mean_sq="0.00460498" inv_var="3.50328e+06"/>
+                </row>
+                <row id="13">
+                    <item id="12" mean_sq="0.127799" inv_var="127.736"/>
+                    <item id="9" mean_sq="0.074897" inv_var="222.139"/>
+                    <item id="15" mean_sq="0.0210705" inv_var="957720"/>
+                    <item id="14" mean_sq="0.00993794" inv_var="1.90084e+06"/>
+                </row>
+                <row id="7">
+                    <item id="12" mean_sq="0.168853" inv_var="278.089"/>
+                    <item id="10" mean_sq="0.0714007" inv_var="407.11"/>
+                    <item id="11" mean_sq="0.122139" inv_var="281.552"/>
+                </row>
+                <row id="8">
+                    <item id="12" mean_sq="0.164239" inv_var="276.397"/>
+                    <item id="10" mean_sq="0.110272" inv_var="315.592"/>
+                    <item id="11" mean_sq="0.0756918" inv_var="368.823"/>
+                    <item id="7" mean_sq="0.0577246" inv_var="326417"/>
+                </row>
+                <row id="5">
+                    <item id="11" mean_sq="0.199111" inv_var="318.501"/>
+                    <item id="7" mean_sq="0.03913" inv_var="499243"/>
+                    <item id="8" mean_sq="0.118951" inv_var="153209"/>
+                </row>
+                <row id="6">
+                    <item id="10" mean_sq="0.177463" inv_var="379.03"/>
+                    <item id="7" mean_sq="0.106381" inv_var="174702"/>
+                    <item id="8" mean_sq="0.0423815" inv_var="436434"/>
+                    <item id="5" mean_sq="0.0897973" inv_var="217681"/>
+                </row>
+                <row id="38">
+                    <item id="7" mean_sq="0.176883" inv_var="794.762"/>
+                    <item id="8" mean_sq="0.131631" inv_var="8644.47"/>
+                    <item id="5" mean_sq="0.134454" inv_var="413.148"/>
+                    <item id="6" mean_sq="0.0645478" inv_var="1766.34"/>
+                </row>
+                <row id="39">
+                    <item id="8" mean_sq="0.333609" inv_var="543.24"/>
+                    <item id="6" mean_sq="0.292051" inv_var="543.673"/>
+                    <item id="38" mean_sq="0.0968764" inv_var="196299"/>
+                </row>
+                <row id="40">
+                    <item id="8" mean_sq="0.663456" inv_var="275.653"/>
+                    <item id="38" mean_sq="0.276139" inv_var="751.103"/>
+                    <item id="39" mean_sq="0.0627728" inv_var="304846"/>
+                </row>
+                <row id="41">
+                    <item id="38" mean_sq="0.516758" inv_var="462.516"/>
+                    <item id="39" mean_sq="0.184604" inv_var="102435"/>
+                    <item id="40" mean_sq="0.0401231" inv_var="474551"/>
+                </row>
+                <row id="44">
+                    <item id="38" mean_sq="0.547785" inv_var="375.981"/>
+                    <item id="39" mean_sq="0.200238" inv_var="1436.67"/>
+                    <item id="40" mean_sq="0.0525538" inv_var="8816.96"/>
+                    <item id="41" mean_sq="0.00814705" inv_var="146337"/>
+                </row>
+                <row id="42">
+                    <item id="39" mean_sq="0.23143" inv_var="498.711"/>
+                    <item id="40" mean_sq="0.0544693" inv_var="2337.8"/>
+                    <item id="41" mean_sq="0.0234154" inv_var="53941.7"/>
+                    <item id="44" mean_sq="0.0363792" inv_var="484627"/>
+                </row>
+                <row id="43">
+                    <item id="39" mean_sq="0.218691" inv_var="452.936"/>
+                    <item id="40" mean_sq="0.0558476" inv_var="2298.84"/>
+                    <item id="41" mean_sq="0.0138703" inv_var="68477.5"/>
+                    <item id="44" mean_sq="0.0400785" inv_var="464934"/>
+                    <item id="42" mean_sq="0.017067" inv_var="1.0159e+06"/>
+                </row>
+                <row id="45">
+                    <item id="40" mean_sq="0.0666605" inv_var="780.241"/>
+                    <item id="41" mean_sq="0.044367" inv_var="9530.89"/>
+                    <item id="44" mean_sq="0.0760758" inv_var="11567.3"/>
+                    <item id="42" mean_sq="0.0115673" inv_var="180868"/>
+                    <item id="43" mean_sq="0.015606" inv_var="183453"/>
+                </row>
+                <row id="31">
+                    <item id="7" mean_sq="0.314125" inv_var="691.238"/>
+                    <item id="5" mean_sq="0.274652" inv_var="484.977"/>
+                </row>
+                <row id="30">
+                    <item id="7" mean_sq="0.250263" inv_var="2082.89"/>
+                    <item id="5" mean_sq="0.183715" inv_var="642.415"/>
+                    <item id="31" mean_sq="0.022189" inv_var="824131"/>
+                </row>
+                <row id="32">
+                    <item id="7" mean_sq="0.451968" inv_var="487.54"/>
+                    <item id="31" mean_sq="0.0175049" inv_var="1.01975e+06"/>
+                    <item id="30" mean_sq="0.0428442" inv_var="5884.54"/>
+                </row>
+                <row id="33">
+                    <item id="31" mean_sq="0.169756" inv_var="116134"/>
+                    <item id="30" mean_sq="0.264182" inv_var="820.104"/>
+                    <item id="32" mean_sq="0.0964442" inv_var="186403"/>
+                </row>
+                <row id="36">
+                    <item id="31" mean_sq="0.20872" inv_var="1412.75"/>
+                    <item id="30" mean_sq="0.315608" inv_var="495.088"/>
+                    <item id="32" mean_sq="0.127885" inv_var="2724.24"/>
+                    <item id="33" mean_sq="0.0105018" inv_var="157173"/>
+                </row>
+                <row id="34">
+                    <item id="31" mean_sq="0.23295" inv_var="393.06"/>
+                    <item id="32" mean_sq="0.127797" inv_var="663.171"/>
+                    <item id="33" mean_sq="0.0288285" inv_var="49137.2"/>
+                    <item id="36" mean_sq="0.0415625" inv_var="392302"/>
+                </row>
+                <row id="35">
+                    <item id="31" mean_sq="0.211241" inv_var="519.367"/>
+                    <item id="32" mean_sq="0.12308" inv_var="927.194"/>
+                    <item id="33" mean_sq="0.0131851" inv_var="70340.8"/>
+                    <item id="36" mean_sq="0.0394421" inv_var="459607"/>
+                    <item id="34" mean_sq="0.0180502" inv_var="975520"/>
+                </row>
+                <row id="37">
+                    <item id="32" mean_sq="0.129698" inv_var="297.256"/>
+                    <item id="33" mean_sq="0.042289" inv_var="7758.42"/>
+                    <item id="36" mean_sq="0.074948" inv_var="9121.35"/>
+                    <item id="34" mean_sq="0.0102991" inv_var="226049"/>
+                    <item id="35" mean_sq="0.0139932" inv_var="97469.4"/>
+                </row>
+            </label_graph>
+        </skeleton>
+        <skeleton version="1000" id="8737e339180d784:8b5486ab8bb411ef">
+            <properties>
+                <property name="NodeName" value="Birk1_16th" default_value="Birk1_16th"/>
+                <property name="JointType" value="Root"/>
+                <property name="DegreesOfFreedom" value="63"/>
+                <property name="TranslationOffset" value="-0,0.924359,0"/>
+                <property name="AssetHeight" value="1.768504"/>
+                <property name="DofsVersion" value="1.0"/>
+                <property name="SkeletonMarkersetType" value="-41"/>
+                <property name="SkeletonModel" value="Segment" default_value="Segment"/>
+                <property name="Color" value="4294921216" default_value="4294921216"/>
+            </properties>
+            <joints>
+                <joint id="8737e339180d784:8b5486ad8bb411ef" parent_name="Birk1_16th">
+                    <properties>
+                        <property name="NodeName" value="Ab" default_value="Ab"/>
+                        <property name="JointType" value="SpineRoot"/>
+                        <property name="DegreesOfFreedom" value="26"/>
+                        <property name="TranslationOffset" value="-0,0.0805652,0"/>
+                    </properties>
+                </joint>
+                <joint id="8737e339180d784:8b5486ae8bb411ef" parent_name="Ab">
+                    <properties>
+                        <property name="NodeName" value="Chest" default_value="Chest"/>
+                        <property name="JointType" value="SpineEnd"/>
+                        <property name="DegreesOfFreedom" value="58"/>
+                        <property name="TranslationOffset" value="-0,0.231742,0"/>
+                    </properties>
+                </joint>
+                <joint id="8737e339180d784:8b5486af8bb411ef" parent_name="Chest">
+                    <properties>
+                        <property name="NodeName" value="Neck" default_value="Neck"/>
+                        <property name="JointType" value="Neck"/>
+                        <property name="DegreesOfFreedom" value="58"/>
+                        <property name="TranslationOffset" value="-0,0.251392,0"/>
+                    </properties>
+                </joint>
+                <joint id="8737e339180d784:8b5486b08bb411ef" parent_name="Neck">
+                    <properties>
+                        <property name="NodeName" value="Head" default_value="Head"/>
+                        <property name="JointType" value="Head"/>
+                        <property name="DegreesOfFreedom" value="58"/>
+                        <property name="TranslationOffset" value="-0,0.152288,0.01965"/>
+                    </properties>
+                </joint>
+                <joint id="8737e339180d784:8b5486b18bb411ef" parent_name="Chest">
+                    <properties>
+                        <property name="NodeName" value="LShoulder" default_value="LShoulder"/>
+                        <property name="JointType" value="LShoulder"/>
+                        <property name="DegreesOfFreedom" value="56"/>
+                        <property name="TranslationOffset" value="0.0392125,0.190854,-0.00498859"/>
+                    </properties>
+                </joint>
+                <joint id="8737e339180d784:8b5486b28bb411ef" parent_name="LShoulder">
+                    <properties>
+                        <property name="NodeName" value="LUArm" default_value="LUArm"/>
+                        <property name="JointType" value="LUpperArm"/>
+                        <property name="DegreesOfFreedom" value="56"/>
+                        <property name="TranslationOffset" value="0.115335,0,0"/>
+                    </properties>
+                </joint>
+                <joint id="8737e339180d784:8b5486b38bb411ef" parent_name="LUArm">
+                    <properties>
+                        <property name="NodeName" value="LFArm" default_value="LFArm"/>
+                        <property name="JointType" value="LForearm"/>
+                        <property name="DegreesOfFreedom" value="24"/>
+                        <property name="TranslationOffset" value="0.280792,0,0"/>
+                    </properties>
+                </joint>
+                <joint id="8737e339180d784:8b5486b48bb411ef" parent_name="LFArm">
+                    <properties>
+                        <property name="NodeName" value="LHand" default_value="LHand"/>
+                        <property name="JointType" value="LHand"/>
+                        <property name="DegreesOfFreedom" value="56"/>
+                        <property name="TranslationOffset" value="0.240725,0,0"/>
+                    </properties>
+                </joint>
+                <joint id="8737e339180d784:8b5486c18bb411ef" parent_name="LHand">
+                    <properties>
+                        <property name="NodeName" value="LThumb1" default_value="LThumb1"/>
+                        <property name="JointType" value="LThumb1"/>
+                        <property name="DegreesOfFreedom" value="48"/>
+                        <property name="RotationOffset" value="0.366723,-0.264033,0.109366,0.885347"/>
+                        <property name="TranslationOffset" value="0.0205343,-0.0233344,0.0326682"/>
+                    </properties>
+                </joint>
+                <joint id="8737e339180d784:8b5486c28bb411ef" parent_name="LThumb1">
+                    <properties>
+                        <property name="NodeName" value="LThumb2" default_value="LThumb2"/>
+                        <property name="JointType" value="LThumb2"/>
+                        <property name="DegreesOfFreedom" value="32"/>
+                        <property name="RotationOffset" value="0,0.202082,-0.202082,0.958293"/>
+                        <property name="TranslationOffset" value="0.031014,0,0"/>
+                    </properties>
+                </joint>
+                <joint id="8737e339180d784:8b5486c38bb411ef" parent_name="LThumb2">
+                    <properties>
+                        <property name="NodeName" value="LThumb3" default_value="LThumb3"/>
+                        <property name="JointType" value="LThumb3"/>
+                        <property name="DegreesOfFreedom" value="32"/>
+                        <property name="TranslationOffset" value="0.0265079,0,0"/>
+                    </properties>
+                </joint>
+                <joint id="8737e339180d784:8b5486c58bb411ef" parent_name="LHand">
+                    <properties>
+                        <property name="NodeName" value="LIndex1" default_value="LIndex1"/>
+                        <property name="JointType" value="LIndex1"/>
+                        <property name="DegreesOfFreedom" value="48"/>
+                        <property name="RotationOrder" value="XYZ"/>
+                        <property name="RotationOffset" value="0.156434,0,0,0.987688"/>
+                        <property name="TranslationOffset" value="0.0840039,0,0.0326682"/>
+                    </properties>
+                </joint>
+                <joint id="8737e339180d784:8b5486c68bb411ef" parent_name="LIndex1">
+                    <properties>
+                        <property name="NodeName" value="LIndex2" default_value="LIndex2"/>
+                        <property name="JointType" value="LIndex2"/>
+                        <property name="DegreesOfFreedom" value="32"/>
+                        <property name="RotationOrder" value="XYZ"/>
+                        <property name="TranslationOffset" value="0.0466688,0,0"/>
+                    </properties>
+                </joint>
+                <joint id="8737e339180d784:8b5486c78bb411ef" parent_name="LIndex2">
+                    <properties>
+                        <property name="NodeName" value="LIndex3" default_value="LIndex3"/>
+                        <property name="JointType" value="LIndex3"/>
+                        <property name="DegreesOfFreedom" value="32"/>
+                        <property name="RotationOrder" value="XYZ"/>
+                        <property name="TranslationOffset" value="0.0233344,0,0"/>
+                    </properties>
+                </joint>
+                <joint id="8737e339180d784:8b5486c98bb411ef" parent_name="LHand">
+                    <properties>
+                        <property name="NodeName" value="LMiddle1" default_value="LMiddle1"/>
+                        <property name="JointType" value="LMiddle1"/>
+                        <property name="DegreesOfFreedom" value="48"/>
+                        <property name="RotationOrder" value="XYZ"/>
+                        <property name="TranslationOffset" value="0.0840039,0,0.0108272"/>
+                    </properties>
+                </joint>
+                <joint id="8737e339180d784:8b5486ca8bb411ef" parent_name="LMiddle1">
+                    <properties>
+                        <property name="NodeName" value="LMiddle2" default_value="LMiddle2"/>
+                        <property name="JointType" value="LMiddle2"/>
+                        <property name="DegreesOfFreedom" value="32"/>
+                        <property name="RotationOrder" value="XYZ"/>
+                        <property name="TranslationOffset" value="0.0513357,0,0"/>
+                    </properties>
+                </joint>
+                <joint id="8737e339180d784:8b5486cb8bb411ef" parent_name="LMiddle2">
+                    <properties>
+                        <property name="NodeName" value="LMiddle3" default_value="LMiddle3"/>
+                        <property name="JointType" value="LMiddle3"/>
+                        <property name="DegreesOfFreedom" value="32"/>
+                        <property name="RotationOrder" value="XYZ"/>
+                        <property name="TranslationOffset" value="0.0280013,0,0"/>
+                    </properties>
+                </joint>
+                <joint id="8737e339180d784:8b5486cd8bb411ef" parent_name="LHand">
+                    <properties>
+                        <property name="NodeName" value="LRing1" default_value="LRing1"/>
+                        <property name="JointType" value="LRing1"/>
+                        <property name="DegreesOfFreedom" value="48"/>
+                        <property name="RotationOrder" value="XYZ"/>
+                        <property name="TranslationOffset" value="0.079337,0,-0.0108272"/>
+                    </properties>
+                </joint>
+                <joint id="8737e339180d784:8b5486ce8bb411ef" parent_name="LRing1">
+                    <properties>
+                        <property name="NodeName" value="LRing2" default_value="LRing2"/>
+                        <property name="JointType" value="LRing2"/>
+                        <property name="DegreesOfFreedom" value="32"/>
+                        <property name="RotationOrder" value="XYZ"/>
+                        <property name="TranslationOffset" value="0.0466688,0,0"/>
+                    </properties>
+                </joint>
+                <joint id="8737e339180d784:8b5486cf8bb411ef" parent_name="LRing2">
+                    <properties>
+                        <property name="NodeName" value="LRing3" default_value="LRing3"/>
+                        <property name="JointType" value="LRing3"/>
+                        <property name="DegreesOfFreedom" value="32"/>
+                        <property name="RotationOrder" value="XYZ"/>
+                        <property name="TranslationOffset" value="0.0233344,0,0"/>
+                    </properties>
+                </joint>
+                <joint id="8737e339180d784:8b5486d18bb411ef" parent_name="LHand">
+                    <properties>
+                        <property name="NodeName" value="LPinky1" default_value="LPinky1"/>
+                        <property name="JointType" value="LPinky1"/>
+                        <property name="DegreesOfFreedom" value="48"/>
+                        <property name="RotationOrder" value="XYZ"/>
+                        <property name="RotationOffset" value="-0.156434,0,0,0.987688"/>
+                        <property name="TranslationOffset" value="0.0746702,0,-0.0326682"/>
+                    </properties>
+                </joint>
+                <joint id="8737e339180d784:8b5486d28bb411ef" parent_name="LPinky1">
+                    <properties>
+                        <property name="NodeName" value="LPinky2" default_value="LPinky2"/>
+                        <property name="JointType" value="LPinky2"/>
+                        <property name="DegreesOfFreedom" value="32"/>
+                        <property name="RotationOrder" value="XYZ"/>
+                        <property name="TranslationOffset" value="0.0373351,0,0"/>
+                    </properties>
+                </joint>
+                <joint id="8737e339180d784:8b5486d38bb411ef" parent_name="LPinky2">
+                    <properties>
+                        <property name="NodeName" value="LPinky3" default_value="LPinky3"/>
+                        <property name="JointType" value="LPinky3"/>
+                        <property name="DegreesOfFreedom" value="32"/>
+                        <property name="RotationOrder" value="XYZ"/>
+                        <property name="TranslationOffset" value="0.0186675,0,0"/>
+                    </properties>
+                </joint>
+                <joint id="8737e339180d784:8b5486b58bb411ef" parent_name="Chest">
+                    <properties>
+                        <property name="NodeName" value="RShoulder" default_value="RShoulder"/>
+                        <property name="JointType" value="RShoulder"/>
+                        <property name="DegreesOfFreedom" value="56"/>
+                        <property name="TranslationOffset" value="-0.0392125,0.190854,-0.00498859"/>
+                    </properties>
+                </joint>
+                <joint id="8737e339180d784:8b5486b68bb411ef" parent_name="RShoulder">
+                    <properties>
+                        <property name="NodeName" value="RUArm" default_value="RUArm"/>
+                        <property name="JointType" value="RUpperArm"/>
+                        <property name="DegreesOfFreedom" value="56"/>
+                        <property name="TranslationOffset" value="-0.115335,0,0"/>
+                    </properties>
+                </joint>
+                <joint id="8737e339180d784:8b5486b78bb411ef" parent_name="RUArm">
+                    <properties>
+                        <property name="NodeName" value="RFArm" default_value="RFArm"/>
+                        <property name="JointType" value="RForearm"/>
+                        <property name="DegreesOfFreedom" value="24"/>
+                        <property name="TranslationOffset" value="-0.280792,0,0"/>
+                    </properties>
+                </joint>
+                <joint id="8737e339180d784:8b5486b88bb411ef" parent_name="RFArm">
+                    <properties>
+                        <property name="NodeName" value="RHand" default_value="RHand"/>
+                        <property name="JointType" value="RHand"/>
+                        <property name="DegreesOfFreedom" value="56"/>
+                        <property name="TranslationOffset" value="-0.240725,0,0"/>
+                    </properties>
+                </joint>
+                <joint id="8737e339180d784:8b5486d58bb411ef" parent_name="RHand">
+                    <properties>
+                        <property name="NodeName" value="RThumb1" default_value="RThumb1"/>
+                        <property name="JointType" value="RThumb1"/>
+                        <property name="DegreesOfFreedom" value="48"/>
+                        <property name="RotationOffset" value="0.366723,0.264033,-0.109366,0.885347"/>
+                        <property name="TranslationOffset" value="-0.0205343,-0.0233344,0.0326682"/>
+                    </properties>
+                </joint>
+                <joint id="8737e339180d784:8b5486d68bb411ef" parent_name="RThumb1">
+                    <properties>
+                        <property name="NodeName" value="RThumb2" default_value="RThumb2"/>
+                        <property name="JointType" value="RThumb2"/>
+                        <property name="DegreesOfFreedom" value="32"/>
+                        <property name="RotationOffset" value="0,-0.202082,0.202082,0.958293"/>
+                        <property name="TranslationOffset" value="-0.031014,0,0"/>
+                    </properties>
+                </joint>
+                <joint id="8737e339180d784:8b5486d78bb411ef" parent_name="RThumb2">
+                    <properties>
+                        <property name="NodeName" value="RThumb3" default_value="RThumb3"/>
+                        <property name="JointType" value="RThumb3"/>
+                        <property name="DegreesOfFreedom" value="32"/>
+                        <property name="TranslationOffset" value="-0.0265079,0,0"/>
+                    </properties>
+                </joint>
+                <joint id="8737e339180d784:8b5486d98bb411ef" parent_name="RHand">
+                    <properties>
+                        <property name="NodeName" value="RIndex1" default_value="RIndex1"/>
+                        <property name="JointType" value="RIndex1"/>
+                        <property name="DegreesOfFreedom" value="48"/>
+                        <property name="RotationOrder" value="XYZ"/>
+                        <property name="RotationOffset" value="0.156434,0,0,0.987688"/>
+                        <property name="TranslationOffset" value="-0.0840039,0,0.0326682"/>
+                    </properties>
+                </joint>
+                <joint id="8737e339180d784:8b5486da8bb411ef" parent_name="RIndex1">
+                    <properties>
+                        <property name="NodeName" value="RIndex2" default_value="RIndex2"/>
+                        <property name="JointType" value="RIndex2"/>
+                        <property name="DegreesOfFreedom" value="32"/>
+                        <property name="RotationOrder" value="XYZ"/>
+                        <property name="TranslationOffset" value="-0.0466688,0,0"/>
+                    </properties>
+                </joint>
+                <joint id="8737e339180d784:8b5486db8bb411ef" parent_name="RIndex2">
+                    <properties>
+                        <property name="NodeName" value="RIndex3" default_value="RIndex3"/>
+                        <property name="JointType" value="RIndex3"/>
+                        <property name="DegreesOfFreedom" value="32"/>
+                        <property name="RotationOrder" value="XYZ"/>
+                        <property name="TranslationOffset" value="-0.0233344,0,0"/>
+                    </properties>
+                </joint>
+                <joint id="8737e339180d784:8b5486dd8bb411ef" parent_name="RHand">
+                    <properties>
+                        <property name="NodeName" value="RMiddle1" default_value="RMiddle1"/>
+                        <property name="JointType" value="RMiddle1"/>
+                        <property name="DegreesOfFreedom" value="48"/>
+                        <property name="RotationOrder" value="XYZ"/>
+                        <property name="TranslationOffset" value="-0.0840039,0,0.0108272"/>
+                    </properties>
+                </joint>
+                <joint id="8737e339180d784:8b5486de8bb411ef" parent_name="RMiddle1">
+                    <properties>
+                        <property name="NodeName" value="RMiddle2" default_value="RMiddle2"/>
+                        <property name="JointType" value="RMiddle2"/>
+                        <property name="DegreesOfFreedom" value="32"/>
+                        <property name="RotationOrder" value="XYZ"/>
+                        <property name="TranslationOffset" value="-0.0513357,0,0"/>
+                    </properties>
+                </joint>
+                <joint id="8737e339180d784:8b5486df8bb411ef" parent_name="RMiddle2">
+                    <properties>
+                        <property name="NodeName" value="RMiddle3" default_value="RMiddle3"/>
+                        <property name="JointType" value="RMiddle3"/>
+                        <property name="DegreesOfFreedom" value="32"/>
+                        <property name="RotationOrder" value="XYZ"/>
+                        <property name="TranslationOffset" value="-0.0280013,0,0"/>
+                    </properties>
+                </joint>
+                <joint id="8737e339180d784:8b5486e18bb411ef" parent_name="RHand">
+                    <properties>
+                        <property name="NodeName" value="RRing1" default_value="RRing1"/>
+                        <property name="JointType" value="RRing1"/>
+                        <property name="DegreesOfFreedom" value="48"/>
+                        <property name="RotationOrder" value="XYZ"/>
+                        <property name="TranslationOffset" value="-0.079337,0,-0.0108272"/>
+                    </properties>
+                </joint>
+                <joint id="8737e339180d784:8b5486e28bb411ef" parent_name="RRing1">
+                    <properties>
+                        <property name="NodeName" value="RRing2" default_value="RRing2"/>
+                        <property name="JointType" value="RRing2"/>
+                        <property name="DegreesOfFreedom" value="32"/>
+                        <property name="RotationOrder" value="XYZ"/>
+                        <property name="TranslationOffset" value="-0.0466688,0,0"/>
+                    </properties>
+                </joint>
+                <joint id="8737e339180d784:8b5486e38bb411ef" parent_name="RRing2">
+                    <properties>
+                        <property name="NodeName" value="RRing3" default_value="RRing3"/>
+                        <property name="JointType" value="RRing3"/>
+                        <property name="DegreesOfFreedom" value="32"/>
+                        <property name="RotationOrder" value="XYZ"/>
+                        <property name="TranslationOffset" value="-0.0233344,0,0"/>
+                    </properties>
+                </joint>
+                <joint id="8737e339180d784:8b5486e58bb411ef" parent_name="RHand">
+                    <properties>
+                        <property name="NodeName" value="RPinky1" default_value="RPinky1"/>
+                        <property name="JointType" value="RPinky1"/>
+                        <property name="DegreesOfFreedom" value="48"/>
+                        <property name="RotationOrder" value="XYZ"/>
+                        <property name="RotationOffset" value="-0.156434,0,0,0.987688"/>
+                        <property name="TranslationOffset" value="-0.0746702,0,-0.0326682"/>
+                    </properties>
+                </joint>
+                <joint id="8737e339180d784:8b5486e68bb411ef" parent_name="RPinky1">
+                    <properties>
+                        <property name="NodeName" value="RPinky2" default_value="RPinky2"/>
+                        <property name="JointType" value="RPinky2"/>
+                        <property name="DegreesOfFreedom" value="32"/>
+                        <property name="RotationOrder" value="XYZ"/>
+                        <property name="TranslationOffset" value="-0.0373351,0,0"/>
+                    </properties>
+                </joint>
+                <joint id="8737e339180d784:8b5486e78bb411ef" parent_name="RPinky2">
+                    <properties>
+                        <property name="NodeName" value="RPinky3" default_value="RPinky3"/>
+                        <property name="JointType" value="RPinky3"/>
+                        <property name="DegreesOfFreedom" value="32"/>
+                        <property name="RotationOrder" value="XYZ"/>
+                        <property name="TranslationOffset" value="-0.0186675,0,0"/>
+                    </properties>
+                </joint>
+                <joint id="8737e339180d784:8b5486b98bb411ef" parent_name="Birk1_16th">
+                    <properties>
+                        <property name="NodeName" value="LThigh" default_value="LThigh"/>
+                        <property name="JointType" value="LThigh"/>
+                        <property name="DegreesOfFreedom" value="56"/>
+                        <property name="TranslationOffset" value="0.0982502,0,0"/>
+                    </properties>
+                </joint>
+                <joint id="8737e339180d784:8b5486ba8bb411ef" parent_name="LThigh">
+                    <properties>
+                        <property name="NodeName" value="LShin" default_value="LShin"/>
+                        <property name="JointType" value="LShin"/>
+                        <property name="DegreesOfFreedom" value="8"/>
+                        <property name="TranslationOffset" value="-0,-0.403821,0"/>
+                    </properties>
+                </joint>
+                <joint id="8737e339180d784:8b5486bb8bb411ef" parent_name="LShin">
+                    <properties>
+                        <property name="NodeName" value="LFoot" default_value="LFoot"/>
+                        <property name="JointType" value="LFoot"/>
+                        <property name="DegreesOfFreedom" value="56"/>
+                        <property name="TranslationOffset" value="-0,-0.441938,0"/>
+                    </properties>
+                </joint>
+                <joint id="8737e339180d784:8b5486bc8bb411ef" parent_name="LFoot">
+                    <properties>
+                        <property name="NodeName" value="LToe" default_value="LToe"/>
+                        <property name="JointType" value="LToe"/>
+                        <property name="DegreesOfFreedom" value="8"/>
+                        <property name="TranslationOffset" value="-0,-0.0638626,0.147375"/>
+                    </properties>
+                </joint>
+                <joint id="8737e339180d784:8b5486bd8bb411ef" parent_name="Birk1_16th">
+                    <properties>
+                        <property name="NodeName" value="RThigh" default_value="RThigh"/>
+                        <property name="JointType" value="RThigh"/>
+                        <property name="DegreesOfFreedom" value="56"/>
+                        <property name="TranslationOffset" value="-0.0982502,0,0"/>
+                    </properties>
+                </joint>
+                <joint id="8737e339180d784:8b5486be8bb411ef" parent_name="RThigh">
+                    <properties>
+                        <property name="NodeName" value="RShin" default_value="RShin"/>
+                        <property name="JointType" value="RShin"/>
+                        <property name="DegreesOfFreedom" value="8"/>
+                        <property name="TranslationOffset" value="-0,-0.403821,0"/>
+                    </properties>
+                </joint>
+                <joint id="8737e339180d784:8b5486bf8bb411ef" parent_name="RShin">
+                    <properties>
+                        <property name="NodeName" value="RFoot" default_value="RFoot"/>
+                        <property name="JointType" value="RFoot"/>
+                        <property name="DegreesOfFreedom" value="56"/>
+                        <property name="TranslationOffset" value="-0,-0.441938,0"/>
+                    </properties>
+                </joint>
+                <joint id="8737e339180d784:8b5486c08bb411ef" parent_name="RFoot">
+                    <properties>
+                        <property name="NodeName" value="RToe" default_value="RToe"/>
+                        <property name="JointType" value="RToe"/>
+                        <property name="DegreesOfFreedom" value="8"/>
+                        <property name="TranslationOffset" value="-0,-0.0638626,0.147375"/>
+                    </properties>
+                </joint>
+            </joints>
+            <dofs>
+                <dof name="Birk1_16th_Translation_X">
+                    <elements>
+                        <element joint="Birk1_16th" channel="TX" weight="1"/>
+                    </elements>
+                </dof>
+                <dof name="Birk1_16th_Translation_Y">
+                    <elements>
+                        <element joint="Birk1_16th" channel="TY" weight="1"/>
+                    </elements>
+                </dof>
+                <dof name="Birk1_16th_Translation_Z">
+                    <elements>
+                        <element joint="Birk1_16th" channel="TZ" weight="1"/>
+                    </elements>
+                </dof>
+                <dof name="Birk1_16th_Rotation_X">
+                    <elements>
+                        <element joint="Birk1_16th" channel="RX" weight="1"/>
+                    </elements>
+                </dof>
+                <dof name="Birk1_16th_Rotation_Y">
+                    <elements>
+                        <element joint="Birk1_16th" channel="RY" weight="1"/>
+                    </elements>
+                </dof>
+                <dof name="Birk1_16th_Rotation_Z">
+                    <elements>
+                        <element joint="Birk1_16th" channel="RZ" weight="1"/>
+                    </elements>
+                </dof>
+                <dof name="Ab_Rotation_X">
+                    <elements>
+                        <element joint="Ab" channel="RX" weight="1"/>
+                    </elements>
+                    <range>-0.85,1</range>
+                    <spring>0.015,0.1</spring>
+                </dof>
+                <dof name="Chest_Rotation_X">
+                    <elements>
+                        <element joint="Chest" channel="RX" weight="1"/>
+                    </elements>
+                    <range>-0.3,0.9</range>
+                    <spring>0.15,0.3</spring>
+                </dof>
+                <dof name="Chest_Rotation_Z">
+                    <elements>
+                        <element joint="Chest" channel="RZ" weight="1"/>
+                    </elements>
+                    <range>-0.9,0.9</range>
+                    <spring>0.15,0</spring>
+                </dof>
+                <dof name="Neck_Rotation_X">
+                    <elements>
+                        <element joint="Neck" channel="RX" weight="1"/>
+                    </elements>
+                    <range>-1.3,1.3</range>
+                    <spring>0.004,0</spring>
+                </dof>
+                <dof name="Neck_Rotation_Z">
+                    <elements>
+                        <element joint="Neck" channel="RZ" weight="1"/>
+                    </elements>
+                    <range>-1.1,1.1</range>
+                    <spring>0.004,0</spring>
+                </dof>
+                <dof name="Head_Rotation_X">
+                    <elements>
+                        <element joint="Head" channel="RX" weight="1"/>
+                    </elements>
+                    <range>-1.57,1.2</range>
+                    <spring>0.004,0</spring>
+                </dof>
+                <dof name="Head_Rotation_Z">
+                    <elements>
+                        <element joint="Head" channel="RZ" weight="1"/>
+                    </elements>
+                    <range>-1.2,1.2</range>
+                    <spring>0.004,0</spring>
+                </dof>
+                <dof name="LShoulder_Rotation_X">
+                    <elements>
+                        <element joint="LShoulder" channel="RX" weight="1"/>
+                    </elements>
+                    <range>-0.4,0.4</range>
+                    <spring>0.025,0</spring>
+                </dof>
+                <dof name="LShoulder_Rotation_Y">
+                    <elements>
+                        <element joint="LShoulder" channel="RY" weight="-1"/>
+                    </elements>
+                    <range>-1,1</range>
+                    <spring>0.025,0</spring>
+                </dof>
+                <dof name="LShoulder_Rotation_Z">
+                    <elements>
+                        <element joint="LShoulder" channel="RZ" weight="-1"/>
+                    </elements>
+                    <range>-0.8,0.6</range>
+                    <spring>0.025,-0.1</spring>
+                </dof>
+                <dof name="RShoulder_Rotation_X">
+                    <elements>
+                        <element joint="RShoulder" channel="RX" weight="1"/>
+                    </elements>
+                    <range>-0.4,0.4</range>
+                    <spring>0.025,0</spring>
+                </dof>
+                <dof name="RShoulder_Rotation_Y">
+                    <elements>
+                        <element joint="RShoulder" channel="RY" weight="1"/>
+                    </elements>
+                    <range>-1,1</range>
+                    <spring>0.025,0</spring>
+                </dof>
+                <dof name="RShoulder_Rotation_Z">
+                    <elements>
+                        <element joint="RShoulder" channel="RZ" weight="1"/>
+                    </elements>
+                    <range>-0.8,0.6</range>
+                    <spring>0.025,-0.1</spring>
+                </dof>
+                <dof name="LUArm_Rotation_X">
+                    <elements>
+                        <element joint="LUArm" channel="RX" weight="1"/>
+                    </elements>
+                    <range>-1.57,1.57</range>
+                    <spring>0.004,0</spring>
+                </dof>
+                <dof name="LUArm_Rotation_Y">
+                    <elements>
+                        <element joint="LUArm" channel="RY" weight="-1"/>
+                    </elements>
+                    <range>-2,2.4</range>
+                    <spring>0.004,0</spring>
+                </dof>
+                <dof name="LUArm_Rotation_Z">
+                    <elements>
+                        <element joint="LUArm" channel="RZ" weight="-1"/>
+                    </elements>
+                    <range>-1.8,2.2</range>
+                    <spring>0.004,0.3</spring>
+                </dof>
+                <dof name="RUArm_Rotation_X">
+                    <elements>
+                        <element joint="RUArm" channel="RX" weight="1"/>
+                    </elements>
+                    <range>-1.57,1.57</range>
+                    <spring>0.004,0</spring>
+                </dof>
+                <dof name="RUArm_Rotation_Y">
+                    <elements>
+                        <element joint="RUArm" channel="RY" weight="1"/>
+                    </elements>
+                    <range>-2,2.4</range>
+                    <spring>0.004,0</spring>
+                </dof>
+                <dof name="RUArm_Rotation_Z">
+                    <elements>
+                        <element joint="RUArm" channel="RZ" weight="1"/>
+                    </elements>
+                    <range>-1.8,2.2</range>
+                    <spring>0.004,0.3</spring>
+                </dof>
+                <dof name="LFArm_Rotation_X">
+                    <elements>
+                        <element joint="LFArm" channel="RX" weight="1"/>
+                    </elements>
+                    <range>-2,2</range>
+                    <spring>0.004,0</spring>
+                </dof>
+                <dof name="LFArm_Rotation_Y">
+                    <elements>
+                        <element joint="LFArm" channel="RY" weight="-1"/>
+                    </elements>
+                    <range>-0.7,2.6</range>
+                    <spring>0.004,1</spring>
+                </dof>
+                <dof name="RFArm_Rotation_X">
+                    <elements>
+                        <element joint="RFArm" channel="RX" weight="1"/>
+                    </elements>
+                    <range>-2,2</range>
+                    <spring>0.004,0</spring>
+                </dof>
+                <dof name="RFArm_Rotation_Y">
+                    <elements>
+                        <element joint="RFArm" channel="RY" weight="1"/>
+                    </elements>
+                    <range>-0.7,2.6</range>
+                    <spring>0.004,1</spring>
+                </dof>
+                <dof name="LHand_Rotation_X">
+                    <elements>
+                        <element joint="LHand" channel="RX" weight="1"/>
+                    </elements>
+                    <range>-1,0.8</range>
+                    <spring>0.004,0</spring>
+                </dof>
+                <dof name="LHand_Rotation_Y">
+                    <elements>
+                        <element joint="LHand" channel="RY" weight="-1"/>
+                    </elements>
+                    <range>-1.2,0.5</range>
+                    <spring>0.004,-0.3</spring>
+                </dof>
+                <dof name="LHand_Rotation_Z">
+                    <elements>
+                        <element joint="LHand" channel="RZ" weight="-1"/>
+                    </elements>
+                    <range>-1.5,2</range>
+                    <spring>0.004,0.25</spring>
+                </dof>
+                <dof name="RHand_Rotation_X">
+                    <elements>
+                        <element joint="RHand" channel="RX" weight="1"/>
+                    </elements>
+                    <range>-1,0.8</range>
+                    <spring>0.004,0</spring>
+                </dof>
+                <dof name="RHand_Rotation_Y">
+                    <elements>
+                        <element joint="RHand" channel="RY" weight="1"/>
+                    </elements>
+                    <range>-1.2,0.5</range>
+                    <spring>0.004,-0.3</spring>
+                </dof>
+                <dof name="RHand_Rotation_Z">
+                    <elements>
+                        <element joint="RHand" channel="RZ" weight="1"/>
+                    </elements>
+                    <range>-1.5,2</range>
+                    <spring>0.004,0.25</spring>
+                </dof>
+                <dof name="LThigh_Rotation_X">
+                    <elements>
+                        <element joint="LThigh" channel="RX" weight="1"/>
+                    </elements>
+                    <range>-3,1</range>
+                    <spring>0.004,-1</spring>
+                </dof>
+                <dof name="LThigh_Rotation_Y">
+                    <elements>
+                        <element joint="LThigh" channel="RY" weight="-1"/>
+                    </elements>
+                    <range>-2.5,2.5</range>
+                    <spring>0.004,0</spring>
+                </dof>
+                <dof name="LThigh_Rotation_Z">
+                    <elements>
+                        <element joint="LThigh" channel="RZ" weight="-1"/>
+                    </elements>
+                    <range>-2.8,2</range>
+                    <spring>0.004,0</spring>
+                </dof>
+                <dof name="RThigh_Rotation_X">
+                    <elements>
+                        <element joint="RThigh" channel="RX" weight="1"/>
+                    </elements>
+                    <range>-3,1</range>
+                    <spring>0.004,-1</spring>
+                </dof>
+                <dof name="RThigh_Rotation_Y">
+                    <elements>
+                        <element joint="RThigh" channel="RY" weight="1"/>
+                    </elements>
+                    <range>-2.5,2.5</range>
+                    <spring>0.004,0</spring>
+                </dof>
+                <dof name="RThigh_Rotation_Z">
+                    <elements>
+                        <element joint="RThigh" channel="RZ" weight="1"/>
+                    </elements>
+                    <range>-2.8,2</range>
+                    <spring>0.004,0</spring>
+                </dof>
+                <dof name="LShin_Rotation_X">
+                    <elements>
+                        <element joint="LShin" channel="RX" weight="1"/>
+                    </elements>
+                    <range>-0.5,3</range>
+                    <spring>0.0025,0.5</spring>
+                </dof>
+                <dof name="RShin_Rotation_X">
+                    <elements>
+                        <element joint="RShin" channel="RX" weight="1"/>
+                    </elements>
+                    <range>-0.5,3</range>
+                    <spring>0.0025,0.5</spring>
+                </dof>
+                <dof name="LFoot_Rotation_X">
+                    <elements>
+                        <element joint="LFoot" channel="RX" weight="1"/>
+                    </elements>
+                    <range>-1,1.2</range>
+                    <spring>0.004,0.2</spring>
+                </dof>
+                <dof name="LFoot_Rotation_Y">
+                    <elements>
+                        <element joint="LFoot" channel="RY" weight="-1"/>
+                    </elements>
+                    <range>-1,1.4</range>
+                    <spring>0.004,0</spring>
+                </dof>
+                <dof name="LFoot_Rotation_Z">
+                    <elements>
+                        <element joint="LFoot" channel="RZ" weight="-1"/>
+                    </elements>
+                    <range>-1.5,1.5</range>
+                    <spring>0.004,0</spring>
+                </dof>
+                <dof name="RFoot_Rotation_X">
+                    <elements>
+                        <element joint="RFoot" channel="RX" weight="1"/>
+                    </elements>
+                    <range>-1,1.2</range>
+                    <spring>0.004,0.2</spring>
+                </dof>
+                <dof name="RFoot_Rotation_Y">
+                    <elements>
+                        <element joint="RFoot" channel="RY" weight="1"/>
+                    </elements>
+                    <range>-1,1.4</range>
+                    <spring>0.004,0</spring>
+                </dof>
+                <dof name="RFoot_Rotation_Z">
+                    <elements>
+                        <element joint="RFoot" channel="RZ" weight="1"/>
+                    </elements>
+                    <range>-1.5,1.5</range>
+                    <spring>0.004,0</spring>
+                </dof>
+                <dof name="LToe_Rotation_X">
+                    <elements>
+                        <element joint="LToe" channel="RX" weight="1"/>
+                    </elements>
+                    <range>-1.5,1.5</range>
+                    <spring>0.004,0</spring>
+                </dof>
+                <dof name="RToe_Rotation_X">
+                    <elements>
+                        <element joint="RToe" channel="RX" weight="1"/>
+                    </elements>
+                    <range>-1.5,1.5</range>
+                    <spring>0.004,0</spring>
+                </dof>
+                <dof name="Head_Twist">
+                    <elements>
+                        <element joint="Neck" channel="RY" weight="1"/>
+                        <element joint="Head" channel="RY" weight="1"/>
+                    </elements>
+                    <range>-1,1</range>
+                    <spring>0.004,0</spring>
+                </dof>
+                <dof name="Spine_Stretch">
+                    <elements>
+                        <element joint="Ab" channel="TY" weight="1"/>
+                        <element joint="Chest" channel="TY" weight="1"/>
+                    </elements>
+                    <range>-0.02,0.02</range>
+                    <spring>1,0</spring>
+                </dof>
+                <dof name="Neck_Squash">
+                    <elements>
+                        <element joint="Neck" channel="TY" weight="1"/>
+                        <element joint="Head" channel="TY" weight="1"/>
+                    </elements>
+                    <range>-0.04,0.04</range>
+                    <spring>1,0</spring>
+                </dof>
+                <dof name="Spine_Twist">
+                    <elements>
+                        <element joint="Ab" channel="RY" weight="1"/>
+                        <element joint="Chest" channel="RY" weight="1"/>
+                    </elements>
+                    <range>-1,1</range>
+                    <spring>0.004,0</spring>
+                </dof>
+                <dof name="LThumb1_Rotation_Z">
+                    <elements>
+                        <element joint="LThumb1" channel="RZ" weight="-1"/>
+                    </elements>
+                    <range>-0.5,1</range>
+                    <spring>0.00065,0.2</spring>
+                </dof>
+                <dof name="LThumb1_Rotation_Y">
+                    <elements>
+                        <element joint="LThumb1" channel="RY" weight="-1"/>
+                    </elements>
+                    <range>-0.5,1</range>
+                    <spring>0.00065,0.4</spring>
+                </dof>
+                <dof name="RThumb1_Rotation_Z">
+                    <elements>
+                        <element joint="RThumb1" channel="RZ" weight="1"/>
+                    </elements>
+                    <range>-0.5,1</range>
+                    <spring>0.00065,0.2</spring>
+                </dof>
+                <dof name="RThumb1_Rotation_Y">
+                    <elements>
+                        <element joint="RThumb1" channel="RY" weight="1"/>
+                    </elements>
+                    <range>-0.5,1</range>
+                    <spring>0.00065,0.4</spring>
+                </dof>
+                <dof name="LThumb2_Rotation_Z">
+                    <elements>
+                        <element joint="LThumb2" channel="RZ" weight="-1"/>
+                    </elements>
+                    <range>-0.5,0.5</range>
+                    <spring>0.00065,0</spring>
+                </dof>
+                <dof name="RThumb2_Rotation_Z">
+                    <elements>
+                        <element joint="RThumb2" channel="RZ" weight="1"/>
+                    </elements>
+                    <range>-0.5,0.5</range>
+                    <spring>0.00065,0</spring>
+                </dof>
+                <dof name="LThumb3_Rotation_Z">
+                    <elements>
+                        <element joint="LThumb3" channel="RZ" weight="-1"/>
+                    </elements>
+                    <range>-1.57,1.57</range>
+                    <spring>0.00065,0</spring>
+                </dof>
+                <dof name="RThumb3_Rotation_Z">
+                    <elements>
+                        <element joint="RThumb3" channel="RZ" weight="1"/>
+                    </elements>
+                    <range>-1.57,1.57</range>
+                    <spring>0.00065,0</spring>
+                </dof>
+                <dof name="LIndex1_Rotation_Y">
+                    <elements>
+                        <element joint="LIndex1" channel="RY" weight="-1"/>
+                        <element joint="LMiddle1" channel="RY" weight="-0.5"/>
+                    </elements>
+                    <range>-0.1,0.7</range>
+                    <spring>0.00065,0.3</spring>
+                </dof>
+                <dof name="LIndex1_Rotation_Z">
+                    <elements>
+                        <element joint="LIndex1" channel="RZ" weight="-1"/>
+                        <element joint="LMiddle1" channel="RZ" weight="-0.5"/>
+                        <element joint="LRing1" channel="RZ" weight="-0.25"/>
+                        <element joint="LIndex2" channel="RZ" weight="-1"/>
+                        <element joint="LIndex3" channel="RZ" weight="-1"/>
+                        <element joint="LMiddle2" channel="RZ" weight="-0.5"/>
+                        <element joint="LMiddle3" channel="RZ" weight="-0.5"/>
+                        <element joint="LRing2" channel="RZ" weight="-0.25"/>
+                        <element joint="LRing3" channel="RZ" weight="-0.25"/>
+                    </elements>
+                    <range>-0.1,1.7</range>
+                    <spring>0.0025,0.1</spring>
+                </dof>
+                <dof name="RIndex1_Rotation_Y">
+                    <elements>
+                        <element joint="RIndex1" channel="RY" weight="1"/>
+                        <element joint="RMiddle1" channel="RY" weight="0.5"/>
+                    </elements>
+                    <range>-0.1,0.7</range>
+                    <spring>0.00065,0.3</spring>
+                </dof>
+                <dof name="RIndex1_Rotation_Z">
+                    <elements>
+                        <element joint="RIndex1" channel="RZ" weight="1"/>
+                        <element joint="RMiddle1" channel="RZ" weight="0.5"/>
+                        <element joint="RRing1" channel="RZ" weight="0.25"/>
+                        <element joint="RIndex2" channel="RZ" weight="1"/>
+                        <element joint="RIndex3" channel="RZ" weight="1"/>
+                        <element joint="RMiddle2" channel="RZ" weight="0.5"/>
+                        <element joint="RMiddle3" channel="RZ" weight="0.5"/>
+                        <element joint="RRing2" channel="RZ" weight="0.25"/>
+                        <element joint="RRing3" channel="RZ" weight="0.25"/>
+                    </elements>
+                    <range>-0.1,1.7</range>
+                    <spring>0.0025,0.1</spring>
+                </dof>
+                <dof name="LPinky1_Rotation_Y">
+                    <elements>
+                        <element joint="LPinky1" channel="RY" weight="-1"/>
+                        <element joint="LRing1" channel="RY" weight="-0.5"/>
+                    </elements>
+                    <range>-1,0.2</range>
+                    <spring>0.00065,-0.2</spring>
+                </dof>
+                <dof name="LPinky1_Rotation_Z">
+                    <elements>
+                        <element joint="LPinky1" channel="RZ" weight="-1"/>
+                        <element joint="LMiddle1" channel="RZ" weight="-0.5"/>
+                        <element joint="LRing1" channel="RZ" weight="-0.75"/>
+                        <element joint="LPinky2" channel="RZ" weight="-1"/>
+                        <element joint="LPinky3" channel="RZ" weight="-1"/>
+                        <element joint="LMiddle2" channel="RZ" weight="-0.5"/>
+                        <element joint="LMiddle3" channel="RZ" weight="-0.5"/>
+                        <element joint="LRing2" channel="RZ" weight="-0.75"/>
+                        <element joint="LRing3" channel="RZ" weight="-0.75"/>
+                    </elements>
+                    <range>-0.1,1.7</range>
+                    <spring>0.0025,0.1</spring>
+                </dof>
+                <dof name="RPinky1_Rotation_Y">
+                    <elements>
+                        <element joint="RPinky1" channel="RY" weight="1"/>
+                        <element joint="RRing1" channel="RY" weight="0.5"/>
+                    </elements>
+                    <range>-1,0.2</range>
+                    <spring>0.00065,-0.2</spring>
+                </dof>
+                <dof name="RPinky1_Rotation_Z">
+                    <elements>
+                        <element joint="RPinky1" channel="RZ" weight="1"/>
+                        <element joint="RMiddle1" channel="RZ" weight="0.5"/>
+                        <element joint="RRing1" channel="RZ" weight="0.75"/>
+                        <element joint="RPinky2" channel="RZ" weight="1"/>
+                        <element joint="RPinky3" channel="RZ" weight="1"/>
+                        <element joint="RMiddle2" channel="RZ" weight="0.5"/>
+                        <element joint="RMiddle3" channel="RZ" weight="0.5"/>
+                        <element joint="RRing2" channel="RZ" weight="0.75"/>
+                        <element joint="RRing3" channel="RZ" weight="0.75"/>
+                    </elements>
+                    <range>-0.1,1.7</range>
+                    <spring>0.0025,0.1</spring>
+                </dof>
+            </dofs>
+            <constraints>
+                <constraint name="HeadTop" id="13" joint_name="Head">
+                    <offset>-0,0.165391,-0.01965</offset>
+                    <active_id>0</active_id>
+                    <weight>1</weight>
+                    <color>0.913725,0.501961,1</color>
+                </constraint>
+                <constraint name="HeadFront" id="14" joint_name="Head">
+                    <offset>0.011111,0.125785,0.109979</offset>
+                    <active_id>0</active_id>
+                    <weight>1</weight>
+                    <color>0.913725,0.501961,1</color>
+                </constraint>
+                <constraint name="HeadSide" id="15" joint_name="Head">
+                    <offset>-0.0943696,0.0747544,0.0189432</offset>
+                    <active_id>0</active_id>
+                    <weight>1</weight>
+                    <color>0.792157,0,1</color>
+                </constraint>
+                <constraint name="BackTop" id="9" joint_name="Chest">
+                    <offset>0.000756031,0.28847,-0.0798674</offset>
+                    <active_id>0</active_id>
+                    <weight>1</weight>
+                    <color>0.913725,0.501961,1</color>
+                </constraint>
+                <constraint name="BackLeft" id="10" joint_name="Chest">
+                    <offset>0.0959745,0.103867,-0.125185</offset>
+                    <active_id>0</active_id>
+                    <weight>1</weight>
+                    <color>0,0.921569,1</color>
+                </constraint>
+                <constraint name="BackRight" id="11" joint_name="Chest">
+                    <offset>-0.0771594,0.111777,-0.124287</offset>
+                    <active_id>0</active_id>
+                    <weight>1</weight>
+                    <color>0.792157,0,1</color>
+                </constraint>
+                <constraint name="Chest" id="12" joint_name="Chest">
+                    <offset>0.0175272,0.123342,0.162813</offset>
+                    <active_id>0</active_id>
+                    <weight>1</weight>
+                    <color>0.913725,0.501961,1</color>
+                </constraint>
+                <constraint name="LShoulderTop" id="16" joint_name="LShoulder">
+                    <offset>0.115195,0.066674,0.0074645</offset>
+                    <active_id>0</active_id>
+                    <weight>1</weight>
+                    <color>0,0.921569,1</color>
+                </constraint>
+                <constraint name="LShoulderBack" id="17" joint_name="LShoulder">
+                    <offset>0.12211,0.00767922,-0.085496</offset>
+                    <active_id>0</active_id>
+                    <weight>1</weight>
+                    <color>1,0,0</color>
+                </constraint>
+                <constraint name="LUArmHigh" id="19" joint_name="LUArm">
+                    <offset>0.111409,-0.0337638,-0.0638854</offset>
+                    <active_id>0</active_id>
+                    <weight>1</weight>
+                    <color>1,0,0</color>
+                </constraint>
+                <constraint name="LElbowOut" id="18" joint_name="LUArm">
+                    <offset>0.267641,0.019311,-0.0353064</offset>
+                    <active_id>0</active_id>
+                    <weight>1</weight>
+                    <color>0,0.921569,1</color>
+                </constraint>
+                <constraint name="LWristOut" id="21" joint_name="LHand">
+                    <offset>0.00260347,0.0192598,-0.0386331</offset>
+                    <active_id>0</active_id>
+                    <weight>2.5</weight>
+                    <color>0,0.921569,1</color>
+                </constraint>
+                <constraint name="LWristIn" id="22" joint_name="LHand">
+                    <offset>0.013366,0.0192598,0.0453867</offset>
+                    <active_id>0</active_id>
+                    <weight>2.5</weight>
+                    <color>1,0,0</color>
+                </constraint>
+                <constraint name="LHandOut" id="20" joint_name="LHand">
+                    <offset>0.0812203,0.0180272,-0.0503491</offset>
+                    <active_id>0</active_id>
+                    <weight>2.5</weight>
+                    <color>0.509804,0.901961,0</color>
+                </constraint>
+                <constraint name="RShoulderTop" id="23" joint_name="RShoulder">
+                    <offset>-0.106895,0.0667429,0.00969245</offset>
+                    <active_id>0</active_id>
+                    <weight>1</weight>
+                    <color>0.509804,0.901961,0</color>
+                </constraint>
+                <constraint name="RShoulderBack" id="24" joint_name="RShoulder">
+                    <offset>-0.103476,-0.00523138,-0.0903445</offset>
+                    <active_id>0</active_id>
+                    <weight>1</weight>
+                    <color>0.792157,0,1</color>
+                </constraint>
+                <constraint name="RUArmHigh" id="26" joint_name="RUArm">
+                    <offset>-0.133172,-0.064499,-0.0642854</offset>
+                    <active_id>0</active_id>
+                    <weight>1</weight>
+                    <color>0.792157,0,1</color>
+                </constraint>
+                <constraint name="RElbowOut" id="25" joint_name="RUArm">
+                    <offset>-0.281742,-0.00750494,-0.0480943</offset>
+                    <active_id>0</active_id>
+                    <weight>1</weight>
+                    <color>0.509804,0.901961,0</color>
+                </constraint>
+                <constraint name="RWristOut" id="28" joint_name="RHand">
+                    <offset>0.0124467,0.018696,-0.0373735</offset>
+                    <active_id>0</active_id>
+                    <weight>2.5</weight>
+                    <color>0.509804,0.901961,0</color>
+                </constraint>
+                <constraint name="RWristIn" id="29" joint_name="RHand">
+                    <offset>0.0132616,0.0186961,0.0479611</offset>
+                    <active_id>0</active_id>
+                    <weight>2.5</weight>
+                    <color>0.792157,0,1</color>
+                </constraint>
+                <constraint name="RHandOut" id="27" joint_name="RHand">
+                    <offset>-0.0640706,0.0316772,-0.0417165</offset>
+                    <active_id>0</active_id>
+                    <weight>2.5</weight>
+                    <color>0.913725,0.501961,1</color>
+                </constraint>
+                <constraint name="WaistLFront" id="5" joint_name="Birk1_16th">
+                    <offset>0.146281,0.0545796,0.110931</offset>
+                    <active_id>0</active_id>
+                    <weight>1</weight>
+                    <color>0,0.921569,1</color>
+                </constraint>
+                <constraint name="WaistLBack" id="7" joint_name="Birk1_16th">
+                    <offset>0.155041,0.135368,-0.110931</offset>
+                    <active_id>0</active_id>
+                    <weight>1</weight>
+                    <color>0,0.921569,1</color>
+                </constraint>
+                <constraint name="WaistRBack" id="8" joint_name="Birk1_16th">
+                    <offset>-0.137758,0.150774,-0.115085</offset>
+                    <active_id>0</active_id>
+                    <weight>1</weight>
+                    <color>0.792157,0,1</color>
+                </constraint>
+                <constraint name="WaistRFront" id="6" joint_name="Birk1_16th">
+                    <offset>-0.136548,0.0522797,0.115085</offset>
+                    <active_id>0</active_id>
+                    <weight>1</weight>
+                    <color>0.792157,0,1</color>
+                </constraint>
+                <constraint name="LThigh" id="30" joint_name="LThigh">
+                    <offset>0.00520537,-0.221766,0.111458</offset>
+                    <active_id>0</active_id>
+                    <weight>1</weight>
+                    <color>1,0,0</color>
+                </constraint>
+                <constraint name="LKneeOut" id="31" joint_name="LThigh">
+                    <offset>0.0589474,-0.400742,4.5076e-06</offset>
+                    <active_id>0</active_id>
+                    <weight>1</weight>
+                    <color>0,0.921569,1</color>
+                </constraint>
+                <constraint name="LShin" id="32" joint_name="LShin">
+                    <offset>-4.12315e-05,-0.197659,0.0494207</offset>
+                    <active_id>0</active_id>
+                    <weight>1</weight>
+                    <color>1,0,0</color>
+                </constraint>
+                <constraint name="LAnkleOut" id="33" joint_name="LShin">
+                    <offset>0.0392974,-0.439748,5.73024e-05</offset>
+                    <active_id>0</active_id>
+                    <weight>1</weight>
+                    <color>0,0.921569,1</color>
+                </constraint>
+                <constraint name="LHeel" id="36" joint_name="LFoot">
+                    <offset>-0.0185406,-0.0284687,-0.0633457</offset>
+                    <active_id>0</active_id>
+                    <weight>1</weight>
+                    <color>1,0,0</color>
+                </constraint>
+                <constraint name="LToeIn" id="34" joint_name="LFoot">
+                    <offset>-0.0617836,-0.0424781,0.160021</offset>
+                    <active_id>0</active_id>
+                    <weight>1</weight>
+                    <color>1,0,0</color>
+                </constraint>
+                <constraint name="LToeTip" id="37" joint_name="LToe">
+                    <offset>0.00586292,0.0378367,0.0521223</offset>
+                    <active_id>0</active_id>
+                    <weight>1</weight>
+                    <color>0,0.921569,1</color>
+                </constraint>
+                <constraint name="LToeOut" id="35" joint_name="LFoot">
+                    <offset>0.0617832,-0.0342214,0.129636</offset>
+                    <active_id>0</active_id>
+                    <weight>1</weight>
+                    <color>0,0.529412,1</color>
+                </constraint>
+                <constraint name="RThigh" id="38" joint_name="RThigh">
+                    <offset>0.0153255,-0.321268,0.0811804</offset>
+                    <active_id>0</active_id>
+                    <weight>1</weight>
+                    <color>0.792157,0,1</color>
+                </constraint>
+                <constraint name="RKneeOut" id="39" joint_name="RThigh">
+                    <offset>-0.0588712,-0.404419,3.01842e-05</offset>
+                    <active_id>0</active_id>
+                    <weight>1</weight>
+                    <color>0.509804,0.901961,0</color>
+                </constraint>
+                <constraint name="RShin" id="40" joint_name="RShin">
+                    <offset>0.011081,-0.117474,0.0342192</offset>
+                    <active_id>0</active_id>
+                    <weight>1</weight>
+                    <color>0.792157,0,1</color>
+                </constraint>
+                <constraint name="RAnkleOut" id="41" joint_name="RShin">
+                    <offset>-0.0392974,-0.445027,-0.000129998</offset>
+                    <active_id>0</active_id>
+                    <weight>1</weight>
+                    <color>0.509804,0.901961,0</color>
+                </constraint>
+                <constraint name="RHeel" id="44" joint_name="RFoot">
+                    <offset>0.00409842,-0.0325029,-0.0649647</offset>
+                    <active_id>0</active_id>
+                    <weight>1</weight>
+                    <color>0.792157,0,1</color>
+                </constraint>
+                <constraint name="RToeIn" id="42" joint_name="RFoot">
+                    <offset>0.0625291,-0.0519796,0.135416</offset>
+                    <active_id>0</active_id>
+                    <weight>1</weight>
+                    <color>0.792157,0,1</color>
+                </constraint>
+                <constraint name="RToeTip" id="45" joint_name="RToe">
+                    <offset>-0.00376368,0.0303125,0.0556805</offset>
+                    <active_id>0</active_id>
+                    <weight>1</weight>
+                    <color>0.509804,0.901961,0</color>
+                </constraint>
+                <constraint name="RToeOut" id="43" joint_name="RFoot">
+                    <offset>-0.0625294,-0.0394215,0.141423</offset>
+                    <active_id>0</active_id>
+                    <weight>1</weight>
+                    <color>0,0.529412,1</color>
+                </constraint>
+            </constraints>
+            <marker_sticks>
+                <!--The "origin" and "end" tags in this section correspond with the "name" values in <marker_names>-->
+                <marker_stick origin="WaistLFront" end="WaistLBack" color="222 0 255"/>
+                <marker_stick origin="WaistRFront" end="WaistRBack" color="222 0 255"/>
+                <marker_stick origin="WaistLBack" end="WaistRBack" color="222 0 255"/>
+                <marker_stick origin="WaistRBack" end="WaistLFront" color="222 0 255"/>
+                <marker_stick origin="WaistRFront" end="WaistLBack" color="222 0 255"/>
+                <marker_stick origin="WaistLFront" end="LThigh" color="0 235 255"/>
+                <marker_stick origin="WaistLBack" end="LThigh" color="0 235 255"/>
+                <marker_stick origin="WaistRFront" end="RThigh" color="127 255 0"/>
+                <marker_stick origin="WaistRBack" end="RThigh" color="127 255 0"/>
+                <marker_stick origin="WaistLBack" end="LKneeOut" color="0 235 255"/>
+                <marker_stick origin="WaistRBack" end="RKneeOut" color="127 255 0"/>
+                <marker_stick origin="BackTop" end="BackLeft" color="222 0 255"/>
+                <marker_stick origin="BackTop" end="BackRight" color="222 0 255"/>
+                <marker_stick origin="Chest" end="RShoulderTop" color="127 255 0"/>
+                <marker_stick origin="Chest" end="LShoulderTop" color="0 235 255"/>
+                <marker_stick origin="BackLeft" end="LShoulderBack" color="0 235 255"/>
+                <marker_stick origin="BackRight" end="RShoulderBack" color="127 255 0"/>
+                <marker_stick origin="HeadTop" end="HeadFront" color="222 0 255"/>
+                <marker_stick origin="HeadTop" end="BackTop" color="222 0 255"/>
+                <marker_stick origin="HeadFront" end="HeadSide" color="222 0 255"/>
+                <marker_stick origin="HeadTop" end="HeadSide" color="222 0 255"/>
+                <marker_stick origin="LShoulderBack" end="LShoulderTop" color="0 235 255"/>
+                <marker_stick origin="LShoulderBack" end="LUArmHigh" color="0 235 255"/>
+                <marker_stick origin="LShoulderTop" end="LUArmHigh" color="0 235 255"/>
+                <marker_stick origin="LUArmHigh" end="LElbowOut" color="0 235 255"/>
+                <marker_stick origin="LElbowOut" end="LWristOut" color="0 235 255"/>
+                <marker_stick origin="LElbowOut" end="LWristIn" color="0 235 255"/>
+                <marker_stick origin="LWristOut" end="LWristIn" color="0 235 255"/>
+                <marker_stick origin="LHandOut" end="LWristOut" color="0 235 255"/>
+                <marker_stick origin="LHandOut" end="LWristIn" color="0 235 255"/>
+                <marker_stick origin="RShoulderBack" end="RShoulderTop" color="127 255 0"/>
+                <marker_stick origin="RShoulderBack" end="RUArmHigh" color="127 255 0"/>
+                <marker_stick origin="RShoulderTop" end="RUArmHigh" color="127 255 0"/>
+                <marker_stick origin="RUArmHigh" end="RElbowOut" color="127 255 0"/>
+                <marker_stick origin="RElbowOut" end="RWristOut" color="127 255 0"/>
+                <marker_stick origin="RElbowOut" end="RWristIn" color="127 255 0"/>
+                <marker_stick origin="RWristOut" end="RWristIn" color="127 255 0"/>
+                <marker_stick origin="RHandOut" end="RWristOut" color="127 255 0"/>
+                <marker_stick origin="RHandOut" end="RWristIn" color="127 255 0"/>
+                <marker_stick origin="LThigh" end="LKneeOut" color="0 235 255"/>
+                <marker_stick origin="LKneeOut" end="LShin" color="0 235 255"/>
+                <marker_stick origin="LKneeOut" end="LAnkleOut" color="0 235 255"/>
+                <marker_stick origin="LShin" end="LAnkleOut" color="0 235 255"/>
+                <marker_stick origin="LShin" end="LHeel" color="0 235 255"/>
+                <marker_stick origin="LAnkleOut" end="LHeel" color="0 235 255"/>
+                <marker_stick origin="LToeIn" end="LToeTip" color="0 235 255"/>
+                <marker_stick origin="LHeel" end="LToeIn" color="0 235 255"/>
+                <marker_stick origin="LToeTip" end="LToeIn" color="0 235 255"/>
+                <marker_stick origin="LToeTip" end="LToeOut" color="0 235 255"/>
+                <marker_stick origin="LToeIn" end="LToeOut" color="0 235 255"/>
+                <marker_stick origin="LHeel" end="LToeOut" color="0 235 255"/>
+                <marker_stick origin="RThigh" end="RKneeOut" color="127 255 0"/>
+                <marker_stick origin="RKneeOut" end="RShin" color="127 255 0"/>
+                <marker_stick origin="RKneeOut" end="RAnkleOut" color="127 255 0"/>
+                <marker_stick origin="RShin" end="RAnkleOut" color="127 255 0"/>
+                <marker_stick origin="RShin" end="RHeel" color="127 255 0"/>
+                <marker_stick origin="RAnkleOut" end="RHeel" color="127 255 0"/>
+                <marker_stick origin="RToeIn" end="RToeTip" color="127 255 0"/>
+                <marker_stick origin="RHeel" end="RToeIn" color="127 255 0"/>
+                <marker_stick origin="RToeTip" end="RToeIn" color="127 255 0"/>
+                <marker_stick origin="RToeTip" end="RToeOut" color="127 255 0"/>
+                <marker_stick origin="RToeIn" end="RToeOut" color="127 255 0"/>
+                <marker_stick origin="RHeel" end="RToeOut" color="127 255 0"/>
+            </marker_sticks>
+            <label_graph id="8737e339180d784:8b5486ab8bb411ef">
+                <row id="23"/>
+                <row id="9">
+                    <item id="23" mean_sq="0.0300411" inv_var="5733.38"/>
+                </row>
+                <row id="16">
+                    <item id="23" mean_sq="0.0862745" inv_var="1746.19"/>
+                    <item id="9" mean_sq="0.0315459" inv_var="5110.74"/>
+                </row>
+                <row id="17">
+                    <item id="23" mean_sq="0.10229" inv_var="2213.93"/>
+                    <item id="9" mean_sq="0.0345499" inv_var="4198.04"/>
+                    <item id="16" mean_sq="0.0121807" inv_var="1.35526e+06"/>
+                </row>
+                <row id="19">
+                    <item id="23" mean_sq="0.172528" inv_var="1239.23"/>
+                    <item id="9" mean_sq="0.0858379" inv_var="1210.84"/>
+                    <item id="16" mean_sq="0.0272154" inv_var="20313.6"/>
+                    <item id="17" mean_sq="0.0140154" inv_var="14826"/>
+                </row>
+                <row id="24">
+                    <item id="23" mean_sq="0.0152092" inv_var="1.1246e+06"/>
+                    <item id="9" mean_sq="0.0317676" inv_var="4803.15"/>
+                    <item id="16" mean_sq="0.0981222" inv_var="2343.98"/>
+                    <item id="17" mean_sq="0.0898783" inv_var="1099.62"/>
+                    <item id="19" mean_sq="0.159817" inv_var="478.463"/>
+                </row>
+                <row id="10">
+                    <item id="23" mean_sq="0.0966346" inv_var="6636.79"/>
+                    <item id="9" mean_sq="0.0451954" inv_var="407817"/>
+                    <item id="16" mean_sq="0.0437993" inv_var="3310.22"/>
+                    <item id="17" mean_sq="0.0165821" inv_var="4824.46"/>
+                    <item id="19" mean_sq="0.0393041" inv_var="1056.5"/>
+                    <item id="24" mean_sq="0.064158" inv_var="1844.26"/>
+                </row>
+                <row id="11">
+                    <item id="23" mean_sq="0.0424487" inv_var="4020.5"/>
+                    <item id="9" mean_sq="0.0392875" inv_var="468654"/>
+                    <item id="16" mean_sq="0.0889849" inv_var="6041.01"/>
+                    <item id="17" mean_sq="0.0656031" inv_var="1980.91"/>
+                    <item id="19" mean_sq="0.120985" inv_var="551.712"/>
+                    <item id="24" mean_sq="0.0123545" inv_var="7015.61"/>
+                    <item id="10" mean_sq="0.0301005" inv_var="555569"/>
+                </row>
+                <row id="12">
+                    <item id="23" mean_sq="0.0686187" inv_var="2950.85"/>
+                    <item id="9" mean_sq="0.0864827" inv_var="214662"/>
+                    <item id="16" mean_sq="0.0614881" inv_var="2703.51"/>
+                    <item id="17" mean_sq="0.0880608" inv_var="3239.92"/>
+                    <item id="19" mean_sq="0.111319" inv_var="746.302"/>
+                    <item id="24" mean_sq="0.0937068" inv_var="5056.5"/>
+                    <item id="10" mean_sq="0.0895349" inv_var="207744"/>
+                    <item id="11" mean_sq="0.0915695" inv_var="191972"/>
+                </row>
+                <row id="26">
+                    <item id="23" mean_sq="0.0420419" inv_var="15853.6"/>
+                    <item id="9" mean_sq="0.105984" inv_var="961.157"/>
+                    <item id="16" mean_sq="0.201325" inv_var="1038.82"/>
+                    <item id="17" mean_sq="0.194225" inv_var="382.003"/>
+                    <item id="24" mean_sq="0.0258926" inv_var="7305.6"/>
+                    <item id="10" mean_sq="0.145793" inv_var="341.922"/>
+                    <item id="11" mean_sq="0.0505833" inv_var="810.736"/>
+                    <item id="12" mean_sq="0.140495" inv_var="500.965"/>
+                </row>
+                <row id="18">
+                    <item id="23" mean_sq="0.304507" inv_var="420.935"/>
+                    <item id="9" mean_sq="0.180884" inv_var="421.957"/>
+                    <item id="16" mean_sq="0.0757314" inv_var="4638.34"/>
+                    <item id="17" mean_sq="0.071777" inv_var="2781.31"/>
+                    <item id="19" mean_sq="0.0280242" inv_var="670244"/>
+                    <item id="10" mean_sq="0.128469" inv_var="307.022"/>
+                </row>
+                <row id="25">
+                    <item id="23" mean_sq="0.0926396" inv_var="3783.04"/>
+                    <item id="9" mean_sq="0.196815" inv_var="369.689"/>
+                    <item id="16" mean_sq="0.331482" inv_var="421.873"/>
+                    <item id="24" mean_sq="0.0881564" inv_var="2181.53"/>
+                    <item id="11" mean_sq="0.140041" inv_var="295.282"/>
+                    <item id="26" mean_sq="0.0256023" inv_var="706546"/>
+                </row>
+                <row id="21">
+                    <item id="16" mean_sq="0.275309" inv_var="792.743"/>
+                    <item id="17" mean_sq="0.269453" inv_var="420.476"/>
+                    <item id="19" mean_sq="0.172429" inv_var="1829.27"/>
+                    <item id="18" mean_sq="0.0663004" inv_var="7089.12"/>
+                </row>
+                <row id="22">
+                    <item id="16" mean_sq="0.284897" inv_var="668.664"/>
+                    <item id="17" mean_sq="0.291712" inv_var="527.195"/>
+                    <item id="19" mean_sq="0.190376" inv_var="2671.97"/>
+                    <item id="18" mean_sq="0.0774361" inv_var="5955.85"/>
+                    <item id="21" mean_sq="0.0071844" inv_var="2.2886e+06"/>
+                </row>
+                <row id="20">
+                    <item id="16" mean_sq="0.359168" inv_var="527.36"/>
+                    <item id="19" mean_sq="0.238702" inv_var="942.398"/>
+                    <item id="18" mean_sq="0.110746" inv_var="3259.52"/>
+                    <item id="21" mean_sq="0.00634275" inv_var="2.59997e+06"/>
+                    <item id="22" mean_sq="0.0137632" inv_var="1.26046e+06"/>
+                </row>
+                <row id="28">
+                    <item id="23" mean_sq="0.269241" inv_var="798.288"/>
+                    <item id="24" mean_sq="0.272106" inv_var="410.797"/>
+                    <item id="26" mean_sq="0.147866" inv_var="2061.43"/>
+                    <item id="25" mean_sq="0.0532946" inv_var="6759.24"/>
+                </row>
+                <row id="29">
+                    <item id="23" mean_sq="0.267315" inv_var="655.903"/>
+                    <item id="24" mean_sq="0.284518" inv_var="487.818"/>
+                    <item id="26" mean_sq="0.157645" inv_var="2779.86"/>
+                    <item id="25" mean_sq="0.060767" inv_var="5233.99"/>
+                    <item id="28" mean_sq="0.00731385" inv_var="2.44867e+06"/>
+                </row>
+                <row id="27">
+                    <item id="23" mean_sq="0.349362" inv_var="531.391"/>
+                    <item id="26" mean_sq="0.210334" inv_var="1164.98"/>
+                    <item id="25" mean_sq="0.092653" inv_var="3176.14"/>
+                    <item id="28" mean_sq="0.00604738" inv_var="2.68381e+06"/>
+                    <item id="29" mean_sq="0.0141904" inv_var="1.28818e+06"/>
+                </row>
+                <row id="15">
+                    <item id="23" mean_sq="0.0640591" inv_var="201.579"/>
+                    <item id="9" mean_sq="0.0636506" inv_var="347.243"/>
+                </row>
+                <row id="13">
+                    <item id="9" mean_sq="0.0891715" inv_var="180.292"/>
+                    <item id="15" mean_sq="0.0186416" inv_var="981508"/>
+                </row>
+                <row id="14">
+                    <item id="9" mean_sq="0.103125" inv_var="236.296"/>
+                    <item id="15" mean_sq="0.0220256" inv_var="810526"/>
+                    <item id="13" mean_sq="0.0185227" inv_var="1.04598e+06"/>
+                </row>
+                <row id="40"/>
+                <row id="8">
+                    <item id="40" mean_sq="0.461479" inv_var="368.597"/>
+                </row>
+                <row id="6">
+                    <item id="40" mean_sq="0.333176" inv_var="307.85"/>
+                    <item id="8" mean_sq="0.0627078" inv_var="298796"/>
+                </row>
+                <row id="39">
+                    <item id="40" mean_sq="0.0197327" inv_var="936538"/>
+                    <item id="8" mean_sq="0.31384" inv_var="470.654"/>
+                    <item id="6" mean_sq="0.220407" inv_var="604.855"/>
+                </row>
+                <row id="38">
+                    <item id="40" mean_sq="0.0420339" inv_var="9268.38"/>
+                    <item id="8" mean_sq="0.256805" inv_var="1535.24"/>
+                    <item id="6" mean_sq="0.142994" inv_var="824.751"/>
+                    <item id="39" mean_sq="0.0189857" inv_var="946212"/>
+                </row>
+                <row id="41">
+                    <item id="40" mean_sq="0.111099" inv_var="172155"/>
+                    <item id="39" mean_sq="0.198012" inv_var="95578.4"/>
+                    <item id="38" mean_sq="0.286428" inv_var="1084.92"/>
+                </row>
+                <row id="44">
+                    <item id="40" mean_sq="0.135622" inv_var="3153.74"/>
+                    <item id="39" mean_sq="0.230903" inv_var="1571.17"/>
+                    <item id="38" mean_sq="0.32654" inv_var="695.089"/>
+                    <item id="41" mean_sq="0.00704572" inv_var="156058"/>
+                </row>
+                <row id="42">
+                    <item id="40" mean_sq="0.154127" inv_var="572.871"/>
+                    <item id="39" mean_sq="0.274033" inv_var="333.742"/>
+                    <item id="41" mean_sq="0.0305873" inv_var="39236.8"/>
+                    <item id="44" mean_sq="0.0439463" inv_var="402630"/>
+                </row>
+                <row id="43">
+                    <item id="40" mean_sq="0.148918" inv_var="522.408"/>
+                    <item id="41" mean_sq="0.0219837" inv_var="40234.4"/>
+                    <item id="44" mean_sq="0.0471212" inv_var="395716"/>
+                    <item id="42" mean_sq="0.0158558" inv_var="1.10907e+06"/>
+                </row>
+                <row id="45">
+                    <item id="40" mean_sq="0.157939" inv_var="272.503"/>
+                    <item id="41" mean_sq="0.0428677" inv_var="10525.8"/>
+                    <item id="44" mean_sq="0.0713695" inv_var="19742.9"/>
+                    <item id="42" mean_sq="0.00933577" inv_var="774345"/>
+                    <item id="43" mean_sq="0.00734115" inv_var="480349"/>
+                </row>
+                <row id="30">
+                    <item id="8" mean_sq="0.242291" inv_var="383.786"/>
+                    <item id="6" mean_sq="0.132152" inv_var="323.802"/>
+                </row>
+                <row id="7">
+                    <item id="8" mean_sq="0.0860169" inv_var="226667"/>
+                    <item id="6" mean_sq="0.143084" inv_var="129173"/>
+                    <item id="30" mean_sq="0.174756" inv_var="3647.56"/>
+                </row>
+                <row id="5">
+                    <item id="8" mean_sq="0.141096" inv_var="130935"/>
+                    <item id="6" mean_sq="0.0800508" inv_var="242580"/>
+                    <item id="30" mean_sq="0.0781547" inv_var="1384.24"/>
+                    <item id="7" mean_sq="0.0559169" inv_var="358505"/>
+                </row>
+                <row id="31">
+                    <item id="30" mean_sq="0.0474034" inv_var="396474"/>
+                    <item id="7" mean_sq="0.293974" inv_var="494.826"/>
+                    <item id="5" mean_sq="0.217011" inv_var="580.018"/>
+                </row>
+                <row id="32">
+                    <item id="30" mean_sq="0.146629" inv_var="1580.49"/>
+                    <item id="7" mean_sq="0.555585" inv_var="278.454"/>
+                    <item id="31" mean_sq="0.0461776" inv_var="391260"/>
+                </row>
+                <row id="33">
+                    <item id="30" mean_sq="0.396188" inv_var="622.799"/>
+                    <item id="31" mean_sq="0.196449" inv_var="99581.7"/>
+                    <item id="32" mean_sq="0.0626314" inv_var="285434"/>
+                </row>
+                <row id="36">
+                    <item id="30" mean_sq="0.449755" inv_var="456.675"/>
+                    <item id="31" mean_sq="0.232953" inv_var="1671.15"/>
+                    <item id="32" mean_sq="0.0865402" inv_var="6312.19"/>
+                    <item id="33" mean_sq="0.00820849" inv_var="167365"/>
+                </row>
+                <row id="35">
+                    <item id="31" mean_sq="0.243534" inv_var="337.214"/>
+                    <item id="32" mean_sq="0.0868007" inv_var="1078.27"/>
+                    <item id="33" mean_sq="0.0189116" inv_var="45727.2"/>
+                    <item id="36" mean_sq="0.0437591" inv_var="417945"/>
+                </row>
+                <row id="34">
+                    <item id="32" mean_sq="0.0978993" inv_var="756.845"/>
+                    <item id="33" mean_sq="0.0374632" inv_var="30502.9"/>
+                    <item id="36" mean_sq="0.0519522" inv_var="315127"/>
+                    <item id="35" mean_sq="0.0162803" inv_var="1.07855e+06"/>
+                </row>
+                <row id="37">
+                    <item id="32" mean_sq="0.0954953" inv_var="496.93"/>
+                    <item id="33" mean_sq="0.0412571" inv_var="9474.63"/>
+                    <item id="36" mean_sq="0.0689642" inv_var="13424"/>
+                    <item id="35" mean_sq="0.00806399" inv_var="244267"/>
+                    <item id="34" mean_sq="0.00651873" inv_var="1.42259e+06"/>
+                </row>
+            </label_graph>
+        </skeleton>
+    </node_assets>
+</profile>

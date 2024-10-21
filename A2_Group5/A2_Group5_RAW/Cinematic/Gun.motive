@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<profile version="1">
+    <node_assets>
+        <rigid_body version="1.1" id="8737e339180d784:ca86fa798bc911ef">
+            <markers>
+                <marker active_id="0">
+                    <position>-0.0320644,0.0195576,-0.0427717</position>
+                    <size>0.02</size>
+                    <label_id>1</label_id>
+                </marker>
+                <marker active_id="0">
+                    <position>0.106032,-0.0113283,-0.0296597</position>
+                    <size>0.02</size>
+                    <label_id>2</label_id>
+                </marker>
+                <marker active_id="0">
+                    <position>-0.0739676,-0.00822932,0.0724313</position>
+                    <size>0.02</size>
+                    <label_id>3</label_id>
+                </marker>
+            </markers>
+            <properties>
+                <property name="NodeName" value="Gun" default_value="Gun"/>
+                <property name="DegreesOfFreedom" value="63"/>
+                <property name="Color" value="4294901982" default_value="4294901982"/>
+                <property name="ShowBones" value="true" default_value="true"/>
+                <property name="ShowAxis" value="true" default_value="true"/>
+                <property name="UserData" value="3" default_value="3"/>
+                <property name="SyntheticLabelGraphScale" value="1.000000" default_value="1.000000"/>
+            </properties>
+            <marker_names reorder_markers="true">
+                <!--To rename markers, modify the value in the "name" tag.-->
+                <marker name="Marker1" old_name="Marker1"/>
+                <marker name="Marker2" old_name="Marker2"/>
+                <marker name="Marker3" old_name="Marker3"/>
+                <!--Renaming markers added to a skeletons: If a fourth marker is added manually to the head of a skeleton, then add a tag such as <Marker name="Head_4" old_name="Head_4" /> where the values in name and old_name are the bone segment (case matters) followed by the marker number.-->
+                <!--Skeleton Bone Segment Names: Head, Neck, Chest, Ab, Hip, LShoulder, LUArm, LFArm, LHand, RShoulder, RUArm, RFArm, RHand, LThigh, LShin, LFoot, LToe, RThigh, RShin, RFoot, RToe.-->
+                <!--If "ReorderMarkers = True" the order here persists into the labeling pane.-->
+            </marker_names>
+            <marker_colors>
+                <!--The "name" tag in this section corresponds with the "name" values in <marker_names>.-->
+                <marker name="Marker1" color="1 1 1" movable="false"/>
+                <marker name="Marker2" color="1 1 1" movable="false"/>
+                <marker name="Marker3" color="1 1 1" movable="false"/>
+                <!--If nothing appears in this section it is because you need to update or generate colors. You can do this in the asset's context menu.-->
+                <!--The movable="false" tag currently is not functioning.-->
+            </marker_colors>
+            <marker_sticks>
+                <!--The "origin" and "end" tags in this section correspond with the "name" values in <marker_names>-->
+            </marker_sticks>
+        </rigid_body>
+    </node_assets>
+</profile>
